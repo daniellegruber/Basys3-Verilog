@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Sun Feb 13 17:28:44 2022
+# Process ID: 26092
+# Current directory: C:/Users/danie/OneDrive/Documents/Vivado/Basys3/Adder_4bit/Adder_4bit.runs/synth_1
+# Command line: vivado.exe -log Adder_4bit.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Adder_4bit.tcl
+# Log file: C:/Users/danie/OneDrive/Documents/Vivado/Basys3/Adder_4bit/Adder_4bit.runs/synth_1/Adder_4bit.vds
+# Journal file: C:/Users/danie/OneDrive/Documents/Vivado/Basys3/Adder_4bit/Adder_4bit.runs/synth_1\vivado.jou
+# Running On: DESKTOP-B8HCSQT, OS: Windows, CPU Frequency: 2918 MHz, CPU Physical cores: 4, Host memory: 16801 MB
+#-----------------------------------------------------------
+source Adder_4bit.tcl -notrace
