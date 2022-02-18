@@ -13,7 +13,7 @@ set rt::rc [catch {
     set rt::cmdEcho 0
     rt::set_parameter writeXmsg true
     rt::set_parameter enableParallelHelperSpawn true
-    set ::env(RT_TMP) "C:/Users/danie/OneDrive/Documents/Basys3-Verilog/MUX/MUX.runs/synth_1/.Xil/Vivado-23056-DESKTOP-B8HCSQT/realtime/tmp"
+    set ::env(RT_TMP) "C:/Users/dlg59/Documents/GitHub/MUX/MUX.runs/synth_1/.Xil/Vivado-15540-GTC-C045-06/realtime/tmp"
     if { [ info exists ::env(RT_TMP) ] } {
       file mkdir $::env(RT_TMP)
     }
@@ -29,11 +29,11 @@ set rt::rc [catch {
     # Skipping read_* RTL commands because this is post-elab optimize flow
     set rt::useElabCache true
     if {$rt::useElabCache == false} {
-      rt::read_verilog C:/Users/danie/OneDrive/Documents/Basys3-Verilog/MUX/MUX.srcs/sources_1/new/MUX.v
+      rt::read_verilog C:/Users/dlg59/Documents/GitHub/MUX/MUX.srcs/sources_1/new/MUX.v
       rt::filesetChecksum
     }
     rt::set_parameter usePostFindUniquification true
-    set rt::SDCFileList C:/Users/danie/OneDrive/Documents/Basys3-Verilog/MUX/MUX.runs/synth_1/.Xil/Vivado-23056-DESKTOP-B8HCSQT/realtime/MUX_synth.xdc
+    set rt::SDCFileList C:/Users/dlg59/Documents/GitHub/MUX/MUX.runs/synth_1/.Xil/Vivado-15540-GTC-C045-06/realtime/MUX_synth.xdc
     rt::sdcChecksum
     set rt::top MUX
     set rt::reportTiming false
@@ -44,8 +44,8 @@ set rt::rc [catch {
     rt::set_parameter ramStyle auto
     rt::set_parameter merge_flipflops true
 # MODE: 
-    rt::set_parameter webTalkPath {C:/Users/danie/OneDrive/Documents/Basys3-Verilog/MUX/MUX.cache/wt}
-    rt::set_parameter enableSplitFlowPath "C:/Users/danie/OneDrive/Documents/Basys3-Verilog/MUX/MUX.runs/synth_1/.Xil/Vivado-23056-DESKTOP-B8HCSQT/"
+    rt::set_parameter webTalkPath {C:/Users/dlg59/Documents/GitHub/MUX/MUX.cache/wt}
+    rt::set_parameter enableSplitFlowPath "C:/Users/dlg59/Documents/GitHub/MUX/MUX.runs/synth_1/.Xil/Vivado-15540-GTC-C045-06/"
     set ok_to_delete_rt_tmp true 
     if { [rt::get_parameter parallelDebug] } { 
        set ok_to_delete_rt_tmp false 

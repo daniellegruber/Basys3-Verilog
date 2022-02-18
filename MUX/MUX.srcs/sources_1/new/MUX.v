@@ -1,8 +1,9 @@
-module MUX( a, b, s );
+module MUX( a, s, Y );
 
-    input a, b;
-    output s;
+    input wire [3:0] a;
+    input wire [1:0] s;
+    output Y;
     
-    assign s = (!s & a) | (s & b);
+    assign Y = (!s[0] & !s[1] & a[0]) + (!s[0] & s[1] & a[1]) + (s[0] & !s[1] & a[2]) + (s[0] & s[1] & a[2]);
 
 endmodule

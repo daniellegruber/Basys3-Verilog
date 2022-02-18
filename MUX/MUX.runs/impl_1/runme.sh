@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/dlg59/Documents/GitHub/MUX/MUX.runs/synth_1'
+HD_PWD='C:/Users/dlg59/Documents/GitHub/MUX/MUX.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -40,4 +40,8 @@ EAStep()
      fi
 }
 
-EAStep vivado -log MUX.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source MUX.tcl
+# pre-commands:
+/bin/touch .init_design.begin.rst
+EAStep vivado -log MUX.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source MUX.tcl -notrace
+
+

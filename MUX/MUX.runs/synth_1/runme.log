@@ -14,14 +14,15 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 18560 
+INFO: Helper process launched with PID 13516 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 389.531 ; gain = 98.094
+Starting RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 331.074 ; gain = 101.078
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'MUX' [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/MUX/MUX.srcs/sources_1/new/MUX.v:1]
-INFO: [Synth 8-256] done synthesizing module 'MUX' (1#1) [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/MUX/MUX.srcs/sources_1/new/MUX.v:1]
+INFO: [Synth 8-638] synthesizing module 'MUX' [C:/Users/dlg59/Documents/GitHub/MUX/MUX.srcs/sources_1/new/MUX.v:1]
+INFO: [Synth 8-256] done synthesizing module 'MUX' (1#1) [C:/Users/dlg59/Documents/GitHub/MUX/MUX.srcs/sources_1/new/MUX.v:1]
+WARNING: [Synth 8-3331] design MUX has unconnected port a[3]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 442.102 ; gain = 150.664
+Finished RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:17 . Memory (MB): peak = 383.125 ; gain = 153.129
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -31,36 +32,23 @@ Report Check Netlist:
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 442.102 ; gain = 150.664
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:17 . Memory (MB): peak = 383.125 ; gain = 153.129
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7a35tcpg236-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/MUX/Basys3_MUX.xdc]
-Finished Parsing XDC File [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/MUX/Basys3_MUX.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/MUX/Basys3_MUX.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/MUX_propImpl.xdc].
+Parsing XDC File [C:/Users/dlg59/Documents/GitHub/MUX/Basys3_MUX.xdc]
+WARNING: [Vivado 12-584] No ports matched 's[1'. [C:/Users/dlg59/Documents/GitHub/MUX/Basys3_MUX.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/dlg59/Documents/GitHub/MUX/Basys3_MUX.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/dlg59/Documents/GitHub/MUX/Basys3_MUX.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/dlg59/Documents/GitHub/MUX/Basys3_MUX.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/MUX_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/MUX_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 699.797 ; gain = 0.000
----------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 699.797 ; gain = 408.359
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Loading Part and Timing Information
----------------------------------------------------------------------------------
-Loading part: xc7a35tcpg236-1
----------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 699.797 ; gain = 408.359
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Applying 'set_property' XDC Constraints
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 699.797 ; gain = 408.359
----------------------------------------------------------------------------------
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 689.664 ; gain = 0.000
