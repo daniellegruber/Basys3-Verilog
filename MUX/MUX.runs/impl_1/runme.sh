@@ -42,6 +42,6 @@ EAStep()
 
 # pre-commands:
 /bin/touch .init_design.begin.rst
-EAStep vivado -log MUX3.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source MUX3.tcl -notrace
+EAStep vivado -log MUX2.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source MUX2.tcl -notrace
 
 

@@ -12,6 +12,7 @@
 set_property PACKAGE_PIN V17 [get_ports {s[0]}]
 #set_property IOSTANDARD LVCMOS33 [get_ports {sw[0]}]
 set_property PACKAGE_PIN V16 [get_ports {s[1]}]
+#set_property PACKAGE_PIN V16 [get_ports {s[1]}]
 #set_property IOSTANDARD LVCMOS33 [get_ports {sw[1]}]
 set_property PACKAGE_PIN W16 [get_ports {a[0]}]
 #set_property IOSTANDARD LVCMOS33 [get_ports {sw[2]}]

@@ -2,11 +2,11 @@
 # Vivado v2017.4 (64-bit)
 # SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
 # IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
-# Start of session at: Mon Feb 21 15:18:17 2022
-# Process ID: 1872
+# Start of session at: Mon Feb 21 16:08:01 2022
+# Process ID: 5132
 # Current directory: C:/Users/dlg59/Documents/GitHub/MUX/MUX.runs/impl_1
-# Command line: vivado.exe -log MUX3.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source MUX3.tcl -notrace
-# Log file: C:/Users/dlg59/Documents/GitHub/MUX/MUX.runs/impl_1/MUX3.vdi
+# Command line: vivado.exe -log MUX2.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source MUX2.tcl -notrace
+# Log file: C:/Users/dlg59/Documents/GitHub/MUX/MUX.runs/impl_1/MUX2.vdi
 # Journal file: C:/Users/dlg59/Documents/GitHub/MUX/MUX.runs/impl_1\vivado.jou
 #-----------------------------------------------------------
-source MUX3.tcl -notrace
+source MUX2.tcl -notrace

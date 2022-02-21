@@ -1,0 +1,77 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon Feb 21 16:53:28 2022
+# Process ID: 19436
+# Current directory: C:/Users/dlg59/Documents/GitHub/Lab3_7segment/Lab3_7segment.runs/impl_1
+# Command line: vivado.exe -log Main.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Main.tcl -notrace
+# Log file: C:/Users/dlg59/Documents/GitHub/Lab3_7segment/Lab3_7segment.runs/impl_1/Main.vdi
+# Journal file: C:/Users/dlg59/Documents/GitHub/Lab3_7segment/Lab3_7segment.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Main.tcl -notrace
+Command: link_design -top Main -part xc7a35tcpg236-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Project 1-479] Netlist was created with Vivado 2017.4
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/dlg59/Documents/GitHub/Lab3_7segment/Basys3_7segment.xdc]
+WARNING: [Vivado 12-584] No ports matched 'a[0]'. [C:/Users/dlg59/Documents/GitHub/Lab3_7segment/Basys3_7segment.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/dlg59/Documents/GitHub/Lab3_7segment/Basys3_7segment.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'a[1'. [C:/Users/dlg59/Documents/GitHub/Lab3_7segment/Basys3_7segment.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/dlg59/Documents/GitHub/Lab3_7segment/Basys3_7segment.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'a[2]'. [C:/Users/dlg59/Documents/GitHub/Lab3_7segment/Basys3_7segment.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/dlg59/Documents/GitHub/Lab3_7segment/Basys3_7segment.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'a[1]'. [C:/Users/dlg59/Documents/GitHub/Lab3_7segment/Basys3_7segment.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/dlg59/Documents/GitHub/Lab3_7segment/Basys3_7segment.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'a[3]'. [C:/Users/dlg59/Documents/GitHub/Lab3_7segment/Basys3_7segment.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/dlg59/Documents/GitHub/Lab3_7segment/Basys3_7segment.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'b[0]'. [C:/Users/dlg59/Documents/GitHub/Lab3_7segment/Basys3_7segment.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/dlg59/Documents/GitHub/Lab3_7segment/Basys3_7segment.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'b[1]'. [C:/Users/dlg59/Documents/GitHub/Lab3_7segment/Basys3_7segment.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/dlg59/Documents/GitHub/Lab3_7segment/Basys3_7segment.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'b[2]'. [C:/Users/dlg59/Documents/GitHub/Lab3_7segment/Basys3_7segment.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/dlg59/Documents/GitHub/Lab3_7segment/Basys3_7segment.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'b[3]'. [C:/Users/dlg59/Documents/GitHub/Lab3_7segment/Basys3_7segment.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/dlg59/Documents/GitHub/Lab3_7segment/Basys3_7segment.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[0]'. [C:/Users/dlg59/Documents/GitHub/Lab3_7segment/Basys3_7segment.xdc:299]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/dlg59/Documents/GitHub/Lab3_7segment/Basys3_7segment.xdc:299]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[1]'. [C:/Users/dlg59/Documents/GitHub/Lab3_7segment/Basys3_7segment.xdc:300]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/dlg59/Documents/GitHub/Lab3_7segment/Basys3_7segment.xdc:300]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[2]'. [C:/Users/dlg59/Documents/GitHub/Lab3_7segment/Basys3_7segment.xdc:301]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/dlg59/Documents/GitHub/Lab3_7segment/Basys3_7segment.xdc:301]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[3]'. [C:/Users/dlg59/Documents/GitHub/Lab3_7segment/Basys3_7segment.xdc:302]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/dlg59/Documents/GitHub/Lab3_7segment/Basys3_7segment.xdc:302]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/dlg59/Documents/GitHub/Lab3_7segment/Basys3_7segment.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+5 Infos, 13 Warnings, 13 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 534.520 ; gain = 308.988
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.121 . Memory (MB): peak = 534.520 ; gain = 0.000
