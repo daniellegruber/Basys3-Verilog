@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/danie/OneDrive/Documents/Basys3-Verilog/MUX/MUX.runs/impl_1'
+HD_PWD='C:/Users/dlg59/Documents/GitHub/MUX1/MUX1.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -42,6 +42,6 @@ EAStep()
 
 # pre-commands:
 /bin/touch .init_design.begin.rst
-EAStep vivado -log MUX3.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source MUX3.tcl -notrace
+EAStep vivado -log MUX1.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source MUX1.tcl -notrace
 
 

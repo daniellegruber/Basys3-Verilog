@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon Feb 21 15:07:17 2022
+# Process ID: 14684
+# Current directory: C:/Users/dlg59/Documents/GitHub/MUX1/MUX1.runs/synth_1
+# Command line: vivado.exe -log MUX1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source MUX1.tcl
+# Log file: C:/Users/dlg59/Documents/GitHub/MUX1/MUX1.runs/synth_1/MUX1.vds
+# Journal file: C:/Users/dlg59/Documents/GitHub/MUX1/MUX1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source MUX1.tcl -notrace
