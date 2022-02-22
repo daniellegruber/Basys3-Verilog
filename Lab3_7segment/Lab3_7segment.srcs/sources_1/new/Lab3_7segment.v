@@ -20,6 +20,7 @@ module Adder_4bit( a, b, s);
     
 endmodule
 
+<<<<<<< HEAD
 module Decoder( a, b, D );
     input wire [3:0] a, b;
     wire [4:0] s;
@@ -49,4 +50,22 @@ assign AN[3:0] = 0;
  Adder_4bit f0( a, b, s);
  Decoder f1( a, b, D );
  
+=======
+module Decoder( a, b, s, D );
+    input wire [3:0] a, b;
+    input wire [4:0] s;
+    output [6:0] D;
+    
+    Adder_4bit fa0( a, b, s ); 
+    
+    assign D[0] = (s[3] & s[0] & (s[2] ^ s[1])) + (!s[3] & !s[1] & (s[2] ^ s[0]));
+    assign D[1] = (!s[3] & s[2] & !s[1] & s[0]) + (s[1] & s[0] & s[3]) + (s[1] & !s[0] & s[2]);
+    assign D[2] = (s[3] & s[2] & (!s[0] + s[1])) + (!s[3] & !s[2] & s[1] & !s[0]);
+    assign D[3] = (!s[3] & !s[1] & !(s[0] ^ s[2])) + (s[3] & !s[2] & s[1] & !s[0]) + (s[1] & s[0] & s[2]);
+    assign D[4] = (!s[3] & s[2] & !s[1]) + s[0] & (!s[3] + (!s[2] & !s[1]));
+    assign D[5] = (!s[3] & !s[2] & (s[1] + s[0])) + (s[0] & s[1] & !s[3]) + (s[3] & s[2] & !s[1] & s[0]);
+    assign D[6] = (!s[3] & s[0] & !(s[2] ^ s[1])) + (s[3] & s[2] & !s[1] & !s[0]);
+
+    
+>>>>>>> 9cdb202b445d71ce2b90bcb1afc18a481d5d0d5c
 endmodule

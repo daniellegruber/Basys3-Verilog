@@ -296,11 +296,14 @@ set_property IOSTANDARD LVCMOS33 [get_ports {a b s D}]
 #set_property PACKAGE_PIN K19 [get_ports QspiCSn]
 #set_property IOSTANDARD LVCMOS33 [get_ports QspiCSn]
 
+<<<<<<< HEAD
 set_property PACKAGE_PIN U2 [get_ports {AN[0]}]
 set_property PACKAGE_PIN U4 [get_ports {AN[1]}]
 set_property PACKAGE_PIN V4 [get_ports {AN[2]}]
 set_property PACKAGE_PIN W4 [get_ports {AN[3]}]
 
+=======
+>>>>>>> 9cdb202b445d71ce2b90bcb1afc18a481d5d0d5c
 
 set_property BITSTREAM.GENERAL.COMPRESS TRUE [current_design]
 set_property BITSTREAM.CONFIG.CONFIGRATE 33 [current_design]

@@ -2,6 +2,7 @@
 # Vivado v2017.4 (64-bit)
 # SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
 # IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+<<<<<<< HEAD
 # Start of session at: Mon Feb 21 16:52:33 2022
 # Process ID: 14628
 # Current directory: C:/Users/dlg59/Documents/GitHub/Lab3_7segment/Lab3_7segment.runs/synth_1
@@ -10,3 +11,13 @@
 # Journal file: C:/Users/dlg59/Documents/GitHub/Lab3_7segment/Lab3_7segment.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
 source Main.tcl -notrace
+=======
+# Start of session at: Fri Feb 18 20:06:38 2022
+# Process ID: 32428
+# Current directory: C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab3_7segment/Lab3_7segment.runs/synth_1
+# Command line: vivado.exe -log Decoder.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Decoder.tcl
+# Log file: C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab3_7segment/Lab3_7segment.runs/synth_1/Decoder.vds
+# Journal file: C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab3_7segment/Lab3_7segment.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Decoder.tcl -notrace
+>>>>>>> 9cdb202b445d71ce2b90bcb1afc18a481d5d0d5c

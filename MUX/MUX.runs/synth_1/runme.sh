@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/dlg59/Documents/GitHub/MUX/MUX.runs/synth_1'
+HD_PWD='C:/Users/danie/OneDrive/Documents/Basys3-Verilog/MUX/MUX.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

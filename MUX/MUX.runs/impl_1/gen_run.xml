@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1645477622">
   <File Type="PWROPT-DCP" Name="MUX2_pwropt.dcp"/>
   <File Type="ROUTE-PWR" Name="MUX2_power_routed.rpt"/>
@@ -62,6 +63,71 @@
   <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
   <File Type="BITSTR-LTX" Name="MUX2.ltx"/>
   <File Type="BITSTR-SYSDEF" Name="MUX2.sysdef"/>
+=======
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1645234298">
+  <File Type="PWROPT-DCP" Name="MUX_pwropt.dcp"/>
+  <File Type="ROUTE-PWR" Name="MUX_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="MUX.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="MUX_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="MUX_reports.tcl"/>
+  <File Type="BG-DRC" Name="MUX.drc"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="MUX_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="MUX_timing_summary_init.rpt"/>
+  <File Type="OPT-HWDEF" Name="MUX.hwdef"/>
+  <File Type="OPT-DCP" Name="MUX_opt.dcp"/>
+  <File Type="OPT-DRC" Name="MUX_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="MUX_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DRC" Name="MUX_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="MUX_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="MUX_placed.dcp"/>
+  <File Type="PLACE-IO" Name="MUX_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="MUX_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="MUX_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="MUX_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="MUX_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="MUX_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="MUX_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="MUX_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="MUX_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="MUX_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="MUX_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="MUX_drc_physopted.rpt"/>
+  <File Type="BG-BIT" Name="MUX.bit"/>
+  <File Type="PHYSOPT-TIMING" Name="MUX_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="MUX_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="MUX_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="MUX_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="MUX_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="MUX_drc_routed.pb"/>
+  <File Type="BITSTR-MSK" Name="MUX.msk"/>
+  <File Type="ROUTE-DRC-RPX" Name="MUX_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="MUX.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="MUX_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-RBT" Name="MUX.rbt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="MUX_methodology_drc_routed.rpx"/>
+  <File Type="BG-BIN" Name="MUX.bin"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="MUX_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="MUX_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="MUX_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="MUX_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="MUX_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="MUX_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="MUX_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="MUX_incremental_reuse_routed.rpt"/>
+  <File Type="RDI-RDI" Name="MUX.vdi"/>
+  <File Type="ROUTE-CLK" Name="MUX_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="MUX_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="MUX_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="MUX_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="MUX_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="MUX_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="MUX.nky"/>
+  <File Type="BITSTR-BMM" Name="MUX_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="MUX.mmi"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="MUX.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="MUX.sysdef"/>
+>>>>>>> 9cdb202b445d71ce2b90bcb1afc18a481d5d0d5c
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
@@ -74,7 +140,11 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
+<<<<<<< HEAD
       <Option Name="TopModule" Val="MUX2"/>
+=======
+      <Option Name="TopModule" Val="MUX"/>
+>>>>>>> 9cdb202b445d71ce2b90bcb1afc18a481d5d0d5c
       <Option Name="TopAutoSet" Val="TRUE"/>
     </Config>
   </FileSet>

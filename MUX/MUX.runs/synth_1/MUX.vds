@@ -1,31 +1,20 @@
-
-*** Running vivado
-    with args -log MUX2.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source MUX2.tcl
-
-
-****** Vivado v2017.4 (64-bit)
-  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
-  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
-    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
-
-source MUX2.tcl -notrace
-Command: synth_design -top MUX2 -part xc7a35tcpg236-1
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Fri Feb 18 20:31:39 2022
+# Process ID: 8420
+# Current directory: C:/Users/danie/OneDrive/Documents/Basys3-Verilog/MUX/MUX.runs/synth_1
+# Command line: vivado.exe -log MUX.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source MUX.tcl
+# Log file: C:/Users/danie/OneDrive/Documents/Basys3-Verilog/MUX/MUX.runs/synth_1/MUX.vds
+# Journal file: C:/Users/danie/OneDrive/Documents/Basys3-Verilog/MUX/MUX.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source MUX.tcl -notrace
+Command: synth_design -top MUX -part xc7a35tcpg236-1
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: Launching helper process for spawning children vivado processes
-<<<<<<< HEAD
-INFO: Helper process launched with PID 19264 
----------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 331.477 ; gain = 101.109
----------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'MUX2' [C:/Users/dlg59/Documents/GitHub/MUX/MUX.srcs/sources_1/new/MUX.v:12]
-INFO: [Synth 8-638] synthesizing module 'MUX1' [C:/Users/dlg59/Documents/GitHub/MUX/MUX.srcs/sources_1/new/MUX.v:1]
-INFO: [Synth 8-256] done synthesizing module 'MUX1' (1#1) [C:/Users/dlg59/Documents/GitHub/MUX/MUX.srcs/sources_1/new/MUX.v:1]
-INFO: [Synth 8-256] done synthesizing module 'MUX2' (2#1) [C:/Users/dlg59/Documents/GitHub/MUX/MUX.srcs/sources_1/new/MUX.v:12]
----------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 383.766 ; gain = 153.398
-=======
 INFO: Helper process launched with PID 13176 
 ---------------------------------------------------------------------------------
 Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 388.527 ; gain = 97.195
@@ -34,7 +23,6 @@ INFO: [Synth 8-638] synthesizing module 'MUX' [C:/Users/danie/OneDrive/Documents
 INFO: [Synth 8-256] done synthesizing module 'MUX' (1#1) [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/MUX/MUX.srcs/sources_1/new/MUX.v:1]
 ---------------------------------------------------------------------------------
 Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 440.301 ; gain = 148.969
->>>>>>> 9cdb202b445d71ce2b90bcb1afc18a481d5d0d5c
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -44,23 +32,13 @@ Report Check Netlist:
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
 ---------------------------------------------------------------------------------
-<<<<<<< HEAD
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 383.766 ; gain = 153.398
-=======
 Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 440.301 ; gain = 148.969
->>>>>>> 9cdb202b445d71ce2b90bcb1afc18a481d5d0d5c
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7a35tcpg236-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-<<<<<<< HEAD
-Parsing XDC File [C:/Users/dlg59/Documents/GitHub/MUX/Basys3_MUX.xdc]
-Finished Parsing XDC File [C:/Users/dlg59/Documents/GitHub/MUX/Basys3_MUX.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/dlg59/Documents/GitHub/MUX/Basys3_MUX.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/MUX2_propImpl.xdc].
-Resolution: To avoid this warning, move constraints listed in [.Xil/MUX2_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
-=======
 Parsing XDC File [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/MUX/Basys3_MUX.xdc]
 WARNING: [Vivado 12-584] No ports matched 's[1'. [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/MUX/Basys3_MUX.xdc:14]
 CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/MUX/Basys3_MUX.xdc:14]
@@ -68,48 +46,30 @@ Resolution: If [get_<value>] was used to populate the object, check to make sure
 Finished Parsing XDC File [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/MUX/Basys3_MUX.xdc]
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/MUX/Basys3_MUX.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/MUX_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/MUX_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
->>>>>>> 9cdb202b445d71ce2b90bcb1afc18a481d5d0d5c
 Completed Processing XDC Constraints
 
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-<<<<<<< HEAD
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 672.586 ; gain = 0.000
----------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 672.586 ; gain = 442.219
-=======
 Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 747.238 ; gain = 0.000
 ---------------------------------------------------------------------------------
 Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 747.238 ; gain = 455.906
->>>>>>> 9cdb202b445d71ce2b90bcb1afc18a481d5d0d5c
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-<<<<<<< HEAD
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 672.586 ; gain = 442.219
-=======
 Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 747.238 ; gain = 455.906
->>>>>>> 9cdb202b445d71ce2b90bcb1afc18a481d5d0d5c
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-<<<<<<< HEAD
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 672.586 ; gain = 442.219
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 672.586 ; gain = 442.219
-=======
 Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 747.238 ; gain = 455.906
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 747.238 ; gain = 455.906
->>>>>>> 9cdb202b445d71ce2b90bcb1afc18a481d5d0d5c
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -150,11 +110,7 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-<<<<<<< HEAD
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 672.586 ; gain = 442.219
-=======
 Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 747.238 ; gain = 455.906
->>>>>>> 9cdb202b445d71ce2b90bcb1afc18a481d5d0d5c
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -166,21 +122,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-<<<<<<< HEAD
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 706.363 ; gain = 475.996
-=======
 Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 763.117 ; gain = 471.785
->>>>>>> 9cdb202b445d71ce2b90bcb1afc18a481d5d0d5c
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-<<<<<<< HEAD
-Finished Timing Optimization : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 706.363 ; gain = 475.996
-=======
 Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 763.117 ; gain = 471.785
->>>>>>> 9cdb202b445d71ce2b90bcb1afc18a481d5d0d5c
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -192,11 +140,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-<<<<<<< HEAD
-Finished Technology Mapping : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 715.930 ; gain = 485.563
-=======
 Finished Technology Mapping : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 772.691 ; gain = 481.359
->>>>>>> 9cdb202b445d71ce2b90bcb1afc18a481d5d0d5c
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -220,11 +164,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-<<<<<<< HEAD
-Finished IO Insertion : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 715.930 ; gain = 485.563
-=======
 Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 772.691 ; gain = 481.359
->>>>>>> 9cdb202b445d71ce2b90bcb1afc18a481d5d0d5c
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -237,11 +177,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-<<<<<<< HEAD
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 715.930 ; gain = 485.563
-=======
 Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 772.691 ; gain = 481.359
->>>>>>> 9cdb202b445d71ce2b90bcb1afc18a481d5d0d5c
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -253,41 +189,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-<<<<<<< HEAD
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 715.930 ; gain = 485.563
-=======
 Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 772.691 ; gain = 481.359
->>>>>>> 9cdb202b445d71ce2b90bcb1afc18a481d5d0d5c
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-<<<<<<< HEAD
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 715.930 ; gain = 485.563
-=======
 Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 772.691 ; gain = 481.359
->>>>>>> 9cdb202b445d71ce2b90bcb1afc18a481d5d0d5c
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-<<<<<<< HEAD
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 715.930 ; gain = 485.563
-=======
 Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 772.691 ; gain = 481.359
->>>>>>> 9cdb202b445d71ce2b90bcb1afc18a481d5d0d5c
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-<<<<<<< HEAD
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 715.930 ; gain = 485.563
-=======
 Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 772.691 ; gain = 481.359
->>>>>>> 9cdb202b445d71ce2b90bcb1afc18a481d5d0d5c
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -315,19 +235,11 @@ Report Instance Areas:
 |1     |top      |       |     8|
 +------+---------+-------+------+
 ---------------------------------------------------------------------------------
-<<<<<<< HEAD
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 715.930 ; gain = 485.563
----------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:22 ; elapsed = 00:00:31 . Memory (MB): peak = 715.930 ; gain = 196.742
-Synthesis Optimization Complete : Time (s): cpu = 00:00:37 ; elapsed = 00:00:39 . Memory (MB): peak = 715.930 ; gain = 485.563
-=======
 Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 772.691 ; gain = 481.359
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
 Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:17 . Memory (MB): peak = 772.691 ; gain = 174.422
 Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 772.691 ; gain = 481.359
->>>>>>> 9cdb202b445d71ce2b90bcb1afc18a481d5d0d5c
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 6 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -337,15 +249,6 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-<<<<<<< HEAD
-16 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
-synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:39 ; elapsed = 00:00:42 . Memory (MB): peak = 728.484 ; gain = 503.074
-INFO: [Common 17-1381] The checkpoint 'C:/Users/dlg59/Documents/GitHub/MUX/MUX.runs/synth_1/MUX2.dcp' has been generated.
-INFO: [runtcl-4] Executing : report_utilization -file MUX2_utilization_synth.rpt -pb MUX2_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 728.484 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Mon Feb 21 16:07:53 2022...
-=======
 14 Infos, 1 Warnings, 1 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
 synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 780.402 ; gain = 501.441
@@ -353,4 +256,3 @@ INFO: [Common 17-1381] The checkpoint 'C:/Users/danie/OneDrive/Documents/Basys3-
 INFO: [runtcl-4] Executing : report_utilization -file MUX_utilization_synth.rpt -pb MUX_utilization_synth.pb
 report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 780.402 ; gain = 0.000
 INFO: [Common 17-206] Exiting Vivado at Fri Feb 18 20:32:07 2022...
->>>>>>> 9cdb202b445d71ce2b90bcb1afc18a481d5d0d5c

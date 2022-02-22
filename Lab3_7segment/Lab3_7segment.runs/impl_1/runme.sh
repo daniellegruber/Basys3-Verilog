@@ -24,7 +24,11 @@ else
 fi
 export LD_LIBRARY_PATH
 
+<<<<<<< HEAD
 HD_PWD='C:/Users/dlg59/Documents/GitHub/Lab3_7segment/Lab3_7segment.runs/impl_1'
+=======
+HD_PWD='C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab3_7segment/Lab3_7segment.runs/impl_1'
+>>>>>>> 9cdb202b445d71ce2b90bcb1afc18a481d5d0d5c
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -42,6 +46,10 @@ EAStep()
 
 # pre-commands:
 /bin/touch .init_design.begin.rst
+<<<<<<< HEAD
 EAStep vivado -log Main.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source Main.tcl -notrace
+=======
+EAStep vivado -log Decoder.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source Decoder.tcl -notrace
+>>>>>>> 9cdb202b445d71ce2b90bcb1afc18a481d5d0d5c
 
 

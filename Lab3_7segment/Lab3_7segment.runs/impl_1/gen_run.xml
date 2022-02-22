@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1645480350">
   <File Type="PWROPT-DCP" Name="Main_pwropt.dcp"/>
   <File Type="ROUTE-PWR" Name="Main_power_routed.rpt"/>
@@ -62,6 +63,71 @@
   <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
   <File Type="BITSTR-LTX" Name="Main.ltx"/>
   <File Type="BITSTR-SYSDEF" Name="Main.sysdef"/>
+=======
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1645232792">
+  <File Type="PWROPT-DCP" Name="Decoder_pwropt.dcp"/>
+  <File Type="ROUTE-PWR" Name="Decoder_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="Decoder.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="Decoder_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="Decoder_reports.tcl"/>
+  <File Type="BG-DRC" Name="Decoder.drc"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Decoder_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="Decoder_timing_summary_init.rpt"/>
+  <File Type="OPT-HWDEF" Name="Decoder.hwdef"/>
+  <File Type="OPT-DCP" Name="Decoder_opt.dcp"/>
+  <File Type="OPT-DRC" Name="Decoder_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="Decoder_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DRC" Name="Decoder_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="Decoder_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="Decoder_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Decoder_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Decoder_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Decoder_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Decoder_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Decoder_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Decoder_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Decoder_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="Decoder_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Decoder_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Decoder_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Decoder_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="Decoder_drc_physopted.rpt"/>
+  <File Type="BG-BIT" Name="Decoder.bit"/>
+  <File Type="PHYSOPT-TIMING" Name="Decoder_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Decoder_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Decoder_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Decoder_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="Decoder_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Decoder_drc_routed.pb"/>
+  <File Type="BITSTR-MSK" Name="Decoder.msk"/>
+  <File Type="ROUTE-DRC-RPX" Name="Decoder_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="Decoder.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Decoder_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-RBT" Name="Decoder.rbt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Decoder_methodology_drc_routed.rpx"/>
+  <File Type="BG-BIN" Name="Decoder.bin"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Decoder_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="Decoder_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Decoder_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Decoder_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Decoder_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Decoder_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Decoder_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="Decoder_incremental_reuse_routed.rpt"/>
+  <File Type="RDI-RDI" Name="Decoder.vdi"/>
+  <File Type="ROUTE-CLK" Name="Decoder_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Decoder_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Decoder_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Decoder_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Decoder_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Decoder_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="Decoder.nky"/>
+  <File Type="BITSTR-BMM" Name="Decoder_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="Decoder.mmi"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Decoder.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="Decoder.sysdef"/>
+>>>>>>> 9cdb202b445d71ce2b90bcb1afc18a481d5d0d5c
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
@@ -74,7 +140,11 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
+<<<<<<< HEAD
       <Option Name="TopModule" Val="Main"/>
+=======
+      <Option Name="TopModule" Val="Decoder"/>
+>>>>>>> 9cdb202b445d71ce2b90bcb1afc18a481d5d0d5c
       <Option Name="TopAutoSet" Val="TRUE"/>
     </Config>
   </FileSet>
@@ -91,7 +161,13 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
+<<<<<<< HEAD
     <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017"/>
+=======
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+>>>>>>> 9cdb202b445d71ce2b90bcb1afc18a481d5d0d5c
     <Step Id="init_design"/>
     <Step Id="opt_design"/>
     <Step Id="power_opt_design"/>

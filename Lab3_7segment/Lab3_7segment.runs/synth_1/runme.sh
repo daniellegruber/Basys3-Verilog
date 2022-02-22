@@ -24,7 +24,11 @@ else
 fi
 export LD_LIBRARY_PATH
 
+<<<<<<< HEAD
 HD_PWD='C:/Users/dlg59/Documents/GitHub/Lab3_7segment/Lab3_7segment.runs/synth_1'
+=======
+HD_PWD='C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab3_7segment/Lab3_7segment.runs/synth_1'
+>>>>>>> 9cdb202b445d71ce2b90bcb1afc18a481d5d0d5c
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -40,4 +44,8 @@ EAStep()
      fi
 }
 
+<<<<<<< HEAD
 EAStep vivado -log Main.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Main.tcl
+=======
+EAStep vivado -log Decoder.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Decoder.tcl
+>>>>>>> 9cdb202b445d71ce2b90bcb1afc18a481d5d0d5c

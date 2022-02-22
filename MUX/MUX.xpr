@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="35" Path="C:/Users/dlg59/Documents/GitHub/MUX/MUX.xpr">
+<Project Version="7" Minor="35" Path="C:/Users/danie/OneDrive/Documents/Basys3-Verilog/MUX/MUX.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="cdf5283d17e24c63af6c73de1c75cba3"/>
