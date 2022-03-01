@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon Feb 28 16:42:03 2022
+# Process ID: 9432
+# Current directory: C:/Users/dlg59/Documents/GitHub/Lab3_7segment2/Lab3_7segment2.runs/impl_1
+# Command line: vivado.exe -log Lab3_7segment2.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Lab3_7segment2.tcl -notrace
+# Log file: C:/Users/dlg59/Documents/GitHub/Lab3_7segment2/Lab3_7segment2.runs/impl_1/Lab3_7segment2.vdi
+# Journal file: C:/Users/dlg59/Documents/GitHub/Lab3_7segment2/Lab3_7segment2.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Lab3_7segment2.tcl -notrace

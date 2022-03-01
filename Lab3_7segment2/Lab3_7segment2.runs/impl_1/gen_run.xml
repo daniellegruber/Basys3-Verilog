@@ -1,65 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1646084466">
-  <File Type="PWROPT-DCP" Name="Lab3_7segment2_pwropt.dcp"/>
   <File Type="ROUTE-PWR" Name="Lab3_7segment2_power_routed.rpt"/>
   <File Type="PA-TCL" Name="Lab3_7segment2.tcl"/>
+  <File Type="PWROPT-DCP" Name="Lab3_7segment2_pwropt.dcp"/>
   <File Type="ROUTE-PWR-SUM" Name="Lab3_7segment2_power_summary_routed.pb"/>
   <File Type="REPORTS-TCL" Name="Lab3_7segment2_reports.tcl"/>
   <File Type="BG-DRC" Name="Lab3_7segment2.drc"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="Lab3_7segment2_methodology_drc_opted.rpt"/>
-  <File Type="INIT-TIMING" Name="Lab3_7segment2_timing_summary_init.rpt"/>
   <File Type="OPT-HWDEF" Name="Lab3_7segment2.hwdef"/>
   <File Type="OPT-DCP" Name="Lab3_7segment2_opt.dcp"/>
   <File Type="OPT-DRC" Name="Lab3_7segment2_drc_opted.rpt"/>
-  <File Type="OPT-TIMING" Name="Lab3_7segment2_timing_summary_opted.rpt"/>
-  <File Type="PWROPT-DRC" Name="Lab3_7segment2_drc_pwropted.rpt"/>
-  <File Type="PWROPT-TIMING" Name="Lab3_7segment2_timing_summary_pwropted.rpt"/>
   <File Type="PLACE-DCP" Name="Lab3_7segment2_placed.dcp"/>
   <File Type="PLACE-IO" Name="Lab3_7segment2_io_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="Lab3_7segment2_clock_utilization_placed.rpt"/>
   <File Type="PLACE-UTIL" Name="Lab3_7segment2_utilization_placed.rpt"/>
   <File Type="PLACE-UTIL-PB" Name="Lab3_7segment2_utilization_placed.pb"/>
   <File Type="PLACE-CTRL" Name="Lab3_7segment2_control_sets_placed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="Lab3_7segment2_incremental_reuse_placed.rpt"/>
   <File Type="PLACE-PRE-SIMILARITY" Name="Lab3_7segment2_incremental_reuse_pre_placed.rpt"/>
-  <File Type="PLACE-TIMING" Name="Lab3_7segment2_timing_summary_placed.rpt"/>
   <File Type="POSTPLACE-PWROPT-DCP" Name="Lab3_7segment2_postplace_pwropt.dcp"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="Lab3_7segment2_timing_summary_postplace_pwropted.rpt"/>
   <File Type="PHYSOPT-DCP" Name="Lab3_7segment2_physopt.dcp"/>
-  <File Type="PHYSOPT-DRC" Name="Lab3_7segment2_drc_physopted.rpt"/>
   <File Type="BG-BIT" Name="Lab3_7segment2.bit"/>
-  <File Type="PHYSOPT-TIMING" Name="Lab3_7segment2_timing_summary_physopted.rpt"/>
   <File Type="ROUTE-ERROR-DCP" Name="Lab3_7segment2_routed_error.dcp"/>
   <File Type="ROUTE-DCP" Name="Lab3_7segment2_routed.dcp"/>
   <File Type="ROUTE-BLACKBOX-DCP" Name="Lab3_7segment2_routed_bb.dcp"/>
   <File Type="ROUTE-DRC" Name="Lab3_7segment2_drc_routed.rpt"/>
   <File Type="ROUTE-DRC-PB" Name="Lab3_7segment2_drc_routed.pb"/>
-  <File Type="BITSTR-MSK" Name="Lab3_7segment2.msk"/>
   <File Type="ROUTE-DRC-RPX" Name="Lab3_7segment2_drc_routed.rpx"/>
-  <File Type="BG-BGN" Name="Lab3_7segment2.bgn"/>
+  <File Type="BITSTR-MSK" Name="Lab3_7segment2.msk"/>
   <File Type="ROUTE-METHODOLOGY-DRC" Name="Lab3_7segment2_methodology_drc_routed.rpt"/>
-  <File Type="BITSTR-RBT" Name="Lab3_7segment2.rbt"/>
+  <File Type="BG-BGN" Name="Lab3_7segment2.bgn"/>
   <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Lab3_7segment2_methodology_drc_routed.rpx"/>
-  <File Type="BG-BIN" Name="Lab3_7segment2.bin"/>
+  <File Type="BITSTR-RBT" Name="Lab3_7segment2.rbt"/>
   <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Lab3_7segment2_methodology_drc_routed.pb"/>
+  <File Type="BG-BIN" Name="Lab3_7segment2.bin"/>
   <File Type="ROUTE-PWR-RPX" Name="Lab3_7segment2_power_routed.rpx"/>
   <File Type="ROUTE-STATUS" Name="Lab3_7segment2_route_status.rpt"/>
   <File Type="ROUTE-STATUS-PB" Name="Lab3_7segment2_route_status.pb"/>
   <File Type="ROUTE-TIMINGSUMMARY" Name="Lab3_7segment2_timing_summary_routed.rpt"/>
   <File Type="ROUTE-TIMING-PB" Name="Lab3_7segment2_timing_summary_routed.pb"/>
   <File Type="ROUTE-TIMING-RPX" Name="Lab3_7segment2_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-SIMILARITY" Name="Lab3_7segment2_incremental_reuse_routed.rpt"/>
-  <File Type="RDI-RDI" Name="Lab3_7segment2.vdi"/>
   <File Type="ROUTE-CLK" Name="Lab3_7segment2_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="Lab3_7segment2.vdi"/>
   <File Type="POSTROUTE-PHYSOPT-DCP" Name="Lab3_7segment2_postroute_physopt.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Lab3_7segment2_postroute_physopt_bb.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Lab3_7segment2_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Lab3_7segment2_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Lab3_7segment2_timing_summary_postroute_physopted.rpx"/>
   <File Type="BITSTR-NKY" Name="Lab3_7segment2.nky"/>
   <File Type="BITSTR-BMM" Name="Lab3_7segment2_bd.bmm"/>
   <File Type="BITSTR-MMI" Name="Lab3_7segment2.mmi"/>
-  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
   <File Type="BITSTR-LTX" Name="Lab3_7segment2.ltx"/>
   <File Type="BITSTR-SYSDEF" Name="Lab3_7segment2.sysdef"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
@@ -99,9 +83,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017">
-      <Desc>Default settings for Implementation.</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017"/>
     <Step Id="init_design"/>
     <Step Id="opt_design"/>
     <Step Id="power_opt_design"/>
