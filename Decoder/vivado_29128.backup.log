@@ -2,10 +2,10 @@
 # Vivado v2017.4 (64-bit)
 # SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
 # IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
-# Start of session at: Tue Feb 22 15:33:24 2022
-# Process ID: 21680
+# Start of session at: Tue Feb 15 19:11:28 2022
+# Process ID: 29128
 # Current directory: C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Decoder
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21904 C:\Users\danie\OneDrive\Documents\Basys3-Verilog\Decoder\Decoder.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent29484 C:\Users\danie\OneDrive\Documents\Basys3-Verilog\Decoder\Decoder.xpr
 # Log file: C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Decoder/vivado.log
 # Journal file: C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Decoder\vivado.jou
 #-----------------------------------------------------------
@@ -18,14 +18,15 @@ INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
 update_compile_order -fileset sources_1
-close_project
-open_project C:/Users/danie/OneDrive/Documents/Basys3-Verilog/MUX/MUX.xpr
-Scanning sources...
-Finished scanning sources
-ERROR: [Project 1-510] Parsing generated run data failed
-open_project C:/Users/danie/OneDrive/Documents/Basys3-Verilog/MUX/MUX.xpr
-Scanning sources...
-Finished scanning sources
-ERROR: [Project 1-510] Parsing generated run data failed
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Tue Feb 15 19:11:46 2022] Launched synth_1...
+Run output will be captured here: C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Decoder/Decoder.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Tue Feb 15 19:12:28 2022] Launched impl_1...
+Run output will be captured here: C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Decoder/Decoder.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Feb 15 19:13:45 2022] Launched impl_1...
+Run output will be captured here: C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Decoder/Decoder.runs/impl_1/runme.log
 exit
-INFO: [Common 17-206] Exiting Vivado at Tue Feb 22 15:34:47 2022...
+INFO: [Common 17-206] Exiting Vivado at Tue Feb 15 19:19:25 2022...
