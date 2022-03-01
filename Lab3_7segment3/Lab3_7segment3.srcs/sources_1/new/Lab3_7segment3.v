@@ -70,16 +70,18 @@ output Y;
 
 reg [3:0] AN;
 
-always @ ( * )                  // * is short for all signals
-     case (c)                   // case statement 
-        //4'd0: D = 7'b000_0001;
-        2'd0: AN = 4'b0001;  // when data is 0
-        2'd1: AN = 4'b0010;  // when data is 1 
-        2'd2: AN = 4'b0100;
-        2'd3: AN = 4'b1000;
+    always @ (c)                  // * is short for all signals
+    begin
+        case (c)                   // case statement 
+
+        2'b00: AN = 4'b0001;  // when data is 0
+        2'b01: AN = 4'b0010;  // when data is 1 
+        2'b10: AN = 4'b0100;
+        2'b11: AN = 4'b1000;
         // etc etc
         default: AN = 4'b0000; // required
-    endcase
+        endcase
+    end
 
  Adder_4bit f0( a, b, s);
  Decoder f1( s[3:0], D );
