@@ -2,11 +2,11 @@
 # Vivado v2017.4 (64-bit)
 # SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
 # IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
-# Start of session at: Tue Mar  1 14:43:53 2022
-# Process ID: 8916
-# Current directory: C:/Users/dlg59/Documents/GitHub/Lab3_7segment3/Lab3_7segment3.runs/synth_1
+# Start of session at: Sat Mar  5 20:12:31 2022
+# Process ID: 24512
+# Current directory: C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab3_7segment3/Lab3_7segment3.runs/synth_1
 # Command line: vivado.exe -log Lab3_7segment3.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Lab3_7segment3.tcl
-# Log file: C:/Users/dlg59/Documents/GitHub/Lab3_7segment3/Lab3_7segment3.runs/synth_1/Lab3_7segment3.vds
-# Journal file: C:/Users/dlg59/Documents/GitHub/Lab3_7segment3/Lab3_7segment3.runs/synth_1\vivado.jou
+# Log file: C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab3_7segment3/Lab3_7segment3.runs/synth_1/Lab3_7segment3.vds
+# Journal file: C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab3_7segment3/Lab3_7segment3.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
 source Lab3_7segment3.tcl -notrace

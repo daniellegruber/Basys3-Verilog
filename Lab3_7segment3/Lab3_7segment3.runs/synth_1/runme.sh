@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/dlg59/Documents/GitHub/Lab3_7segment3/Lab3_7segment3.runs/synth_1'
+HD_PWD='C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab3_7segment3/Lab3_7segment3.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

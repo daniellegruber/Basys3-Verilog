@@ -2,6 +2,7 @@ module FSM( clk, sw, led );
     input clk;
     input [3:0] sw;
     output wire [15:0] led;
+//    output [7:0] led;
 //    output reg [15:0] led;
 
     parameter S0 = 4'b0000;
