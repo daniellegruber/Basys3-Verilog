@@ -1,7 +1,7 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
-| Date             : Sat Mar  5 20:09:43 2022
+| Date             : Sun Mar  6 14:21:46 2022
 | Host             : DESKTOP-B8HCSQT running 64-bit major release  (build 9200)
 | Command          : report_power -file FSM_power_routed.rpt -pb FSM_power_summary_routed.pb -rpx FSM_power_routed.rpx
 | Design           : FSM
@@ -30,14 +30,14 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 0.074        |
+| Total On-Chip Power (W)  | 0.069        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 0.003        |
-| Device Static (W)        | 0.072        |
+| Dynamic (W)              | 0.001        |
+| Device Static (W)        | 0.068        |
 | Effective TJA (C/W)      | 5.0          |
-| Max Ambient (C)          | 84.6         |
-| Junction Temperature (C) | 25.4         |
+| Max Ambient (C)          | 84.7         |
+| Junction Temperature (C) | 25.3         |
 | Confidence Level         | Low          |
 | Setting File             | ---          |
 | Simulation Activity File | ---          |
@@ -53,15 +53,15 @@ Table of Contents
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
 | Clocks         |    <0.001 |        3 |       --- |             --- |
-| Slice Logic    |    <0.001 |       74 |       --- |             --- |
-|   LUT as Logic |    <0.001 |       12 |     20800 |            0.06 |
+| Slice Logic    |    <0.001 |       75 |       --- |             --- |
+|   LUT as Logic |    <0.001 |       18 |     20800 |            0.09 |
 |   CARRY4       |    <0.001 |        7 |      8150 |            0.09 |
 |   Register     |    <0.001 |       43 |     41600 |            0.10 |
-|   Others       |     0.000 |        6 |       --- |             --- |
-| Signals        |    <0.001 |       66 |       --- |             --- |
-| I/O            |     0.002 |       20 |       106 |           18.87 |
-| Static Power   |     0.072 |          |           |                 |
-| Total          |     0.074 |          |           |                 |
+|   Others       |     0.000 |        5 |       --- |             --- |
+| Signals        |    <0.001 |       62 |       --- |             --- |
+| I/O            |    <0.001 |       20 |       106 |           18.87 |
+| Static Power   |     0.068 |          |           |                 |
+| Total          |     0.069 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -73,7 +73,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Vccint    |       1.000 |     0.010 |       0.001 |      0.010 |
 | Vccaux    |       1.800 |     0.013 |       0.000 |      0.013 |
-| Vcco33    |       3.300 |     0.002 |       0.001 |      0.001 |
+| Vcco33    |       3.300 |     0.000 |       0.000 |      0.000 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
 | Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |
 | Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |
@@ -140,7 +140,7 @@ Table of Contents
 +------------+-----------+
 | Name       | Power (W) |
 +------------+-----------+
-| FSM        |     0.003 |
+| FSM        |    <0.001 |
 |   clkgen_0 |    <0.001 |
 +------------+-----------+
 
