@@ -15,8 +15,8 @@ module FSM( clk, sw, led );
     reg [3:0] state_l, tmp_state_l, nextstate_l, state_r, tmp_state_r, nextstate_r;
     reg high_or_low = 1'b1;
         
-    assign led[3:0] = state_l;
-    assign led[7:4] = state_r;
+    assign led[3:0] = state_r;
+    assign led[7:4] = state_l;
     
     // instantiate clkgen module
     clkgen clkgen_0( .clk( clk ), .clk_tail( clk_tail) );
@@ -60,14 +60,14 @@ module FSM( clk, sw, led );
         nextstate_l = S0;
         nextstate_r = S0;
         case (tmp_state_l)
-            S0:      nextstate_l = S4;
-            S4:      nextstate_l = S0;
-            default: nextstate_l = S0;
+            S0:      nextstate_l <= S4;
+            S4:      nextstate_l <= S0;
+            default: nextstate_l <= S0;
         endcase
         case (tmp_state_r)
-            S0:      nextstate_r = S4;
-            S4:      nextstate_r = S0;
-            default: nextstate_r = S0;
+            S0:      nextstate_r <= S4;
+            S4:      nextstate_r <= S0;
+            default: nextstate_r <= S0;
         endcase
     end else if (sw[0]) begin   // left signal
         case (tmp_state_l)

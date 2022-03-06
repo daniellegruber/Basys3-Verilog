@@ -24,16 +24,6 @@ module Decoder( s, D );
 
     input wire [3:0] s;
     output reg [6:0] D;
-    
-//    Adder_4bit fa0( a, b, s ); 
-    
-//    assign D[0] = (s[3] & s[0] & (s[2] ^ s[1])) | (~s[3] & ~s[1] & (s[2] ^ s[0]));
-//    assign D[1] = (~s[3] & s[2] & ~s[1] & s[0]) | (s[1] & s[0] & s[3]) | (s[1] & ~s[0] & s[2]);
-//    assign D[2] = (s[3] & s[2] & (~s[0] | s[1])) | (~s[3] & ~s[2] & s[1] & ~s[0]);
-//    assign D[3] = (~s[3] & ~s[1] & ~(s[0] ^ s[2])) | (s[3] & ~s[2] & s[1] & ~s[0]) | (s[1] & s[0] & s[2]);
-//    assign D[4] = (~s[3] & s[2] & ~s[1]) | s[0] & (~s[3] | (~s[2] & ~s[1]));
-//    assign D[5] = (~s[3] & ~s[2] & (s[1] | s[0])) | (s[0] & s[1] & ~s[3]) | (s[3] & s[2] & ~s[1] & s[0]);
-//    assign D[6] = (~s[3] & s[0] & ~(s[2] ^ s[1])) | (s[3] & s[2] & ~s[1] & ~s[0]);
 
     always @ ( * )                  // * is short for all signals
         case (s)                   // case statement 
@@ -74,12 +64,12 @@ reg [3:0] AN;
     begin
         case (c)                   // case statement 
 
-        2'b00: AN = 4'b0001;  // when data is 0
-        2'b01: AN = 4'b0010;  // when data is 1 
-        2'b10: AN = 4'b0100;
-        2'b11: AN = 4'b1000;
+        2'b00: AN = 4'b1110;  // choose which segment display
+        2'b01: AN = 4'b1101;  // remember that activation input is active low
+        2'b10: AN = 4'b1011;
+        2'b11: AN = 4'b0111;
         // etc etc
-        default: AN = 4'b0000; // required
+        default: AN = 4'b1111; // required
         endcase
     end
 
