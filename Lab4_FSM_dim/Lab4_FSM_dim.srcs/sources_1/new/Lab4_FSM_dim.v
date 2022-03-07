@@ -26,9 +26,6 @@ module FSM( clk, sw, led );
     
     // instantiate clkgen module
     clkgen clkgen_0( .clk( clk ), .clk_tail( clk_tail) );
-    
-    // counter
-    reg [32:0] count1;
 
     always @ (posedge clk_tail)
     begin

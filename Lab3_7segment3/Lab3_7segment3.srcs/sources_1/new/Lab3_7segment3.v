@@ -7,16 +7,17 @@ module Adder_Full( a, b, ci, s, cout );
     
 endmodule
 
-module Adder_4bit( a, b,s);
+module Adder_4bit( a, b, s, cout);
     input wire [3:0] a, b;
-    output wire [4:0] s;
+    output wire [3:0] s;
+    output wire cout;
     
     wire c1, c2, c3;
     
     Adder_Full fa0( a[0], b[0], 0, s[0], c1);
     Adder_Full fa1( a[1], b[1], c1, s[1], c2);
     Adder_Full fa2( a[2], b[2], c2, s[2], c3);
-    Adder_Full fa3( a[3], b[3], c3, s[3], s[4]);
+    Adder_Full fa3( a[3], b[3], c3, s[3], cout);
     
 endmodule
 
@@ -54,7 +55,8 @@ module Lab3_7segment3(a, b, c, D, Y);
 
 input [3:0] a, b;
 input [1:0] c; // select which 7-segment display to turn 
-wire [4:0] s;
+wire [3:0] s;
+wire cout;
 output wire [6:0] D;
 output Y;
 
@@ -64,17 +66,24 @@ reg [3:0] AN;
     begin
         case (c)                   // case statement 
 
-        2'b00: AN = 4'b1110;  // choose which segment display
-        2'b01: AN = 4'b1101;  // remember that activation input is active low
-        2'b10: AN = 4'b1011;
-        2'b11: AN = 4'b0111;
+        2'b00: AN = 4'b0001;  // choose which segment display
+        2'b01: AN = 4'b0010;  // remember that activation input is active low
+        2'b10: AN = 4'b0100;
+        2'b11: AN = 4'b1000;
         // etc etc
-        default: AN = 4'b1111; // required
+        default: AN = 4'b0000; // required
+        
+//        2'b00: AN = 4'b1110;  // choose which segment display
+//        2'b01: AN = 4'b1101;  // remember that activation input is active low
+//        2'b10: AN = 4'b1011;
+//        2'b11: AN = 4'b0111;
+//        // etc etc
+//        default: AN = 4'b1111; // required
         endcase
     end
 
  Adder_4bit f0( a, b, s);
- Decoder f1( s[3:0], D );
- assign Y = s[4];
+ Decoder f1( s, D );
+ assign Y = cout;
 
 endmodule
