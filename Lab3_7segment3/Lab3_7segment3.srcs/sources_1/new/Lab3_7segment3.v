@@ -51,7 +51,7 @@ module Decoder( s, D );
 
 endmodule
 
-module Lab3_7segment3(a, b, c, D, Y);
+module Lab3_7segment3(a, b, c, D, Y, AN);
 
 input [3:0] a, b;
 input [1:0] c; // select which 7-segment display to turn 
@@ -60,25 +60,18 @@ wire cout;
 output wire [6:0] D;
 output Y;
 
-reg [3:0] AN;
+output reg [3:0] AN;
 
     always @ (c)                  // * is short for all signals
     begin
         case (c)                   // case statement 
 
-        2'b00: AN = 4'b0001;  // choose which segment display
-        2'b01: AN = 4'b0010;  // remember that activation input is active low
-        2'b10: AN = 4'b0100;
-        2'b11: AN = 4'b1000;
+        2'b00: AN = 4'b1110;  // choose which segment display
+        2'b01: AN = 4'b1101;  // remember that activation input is active low
+        2'b10: AN = 4'b1011;
+        2'b11: AN = 4'b0111;
         // etc etc
-        default: AN = 4'b0000; // required
-        
-//        2'b00: AN = 4'b1110;  // choose which segment display
-//        2'b01: AN = 4'b1101;  // remember that activation input is active low
-//        2'b10: AN = 4'b1011;
-//        2'b11: AN = 4'b0111;
-//        // etc etc
-//        default: AN = 4'b1111; // required
+        default: AN = 4'b1111; // required
         endcase
     end
 

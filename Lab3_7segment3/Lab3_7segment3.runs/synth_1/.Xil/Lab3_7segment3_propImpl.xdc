@@ -43,5 +43,3 @@ set_property src_info {type:XDC file:1 line:105 export:INPUT save:INPUT read:REA
 set_property PACKAGE_PIN V4 [get_ports {AN[2]}]
 set_property src_info {type:XDC file:1 line:106 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN W4 [get_ports {AN[3]}]
-set_property src_info {type:XDC file:1 line:107 export:INPUT save:INPUT read:READ} [current_design]
-set_property IOSTANDARD LVCMOS33 [get_ports {AN}]
