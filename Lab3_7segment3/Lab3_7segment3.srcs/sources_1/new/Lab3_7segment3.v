@@ -82,7 +82,7 @@ reg [3:0] AN;
         endcase
     end
 
- Adder_4bit f0( a, b, s);
+ Adder_4bit f0( a, b, s, cout );
  Decoder f1( s, D );
  assign Y = cout;
 

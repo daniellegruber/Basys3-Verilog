@@ -15,7 +15,8 @@ module FSM( clk, sw, led );
 //    parameter PWM_input = 4'b1111;
 //    reg [3:0] PWM; // internal accumulator
 
-    wire [7:0] x_in; //control value that defines pulse width
+//    wire [7:0] x_in; //control value that defines pulse width
+    parameter x_in = 8'b0000_1111; //control value that defines pulse width
     reg PWM_out = 1;
     reg [7:0] counter = 0;
     
