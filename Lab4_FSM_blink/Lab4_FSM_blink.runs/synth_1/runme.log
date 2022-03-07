@@ -14,9 +14,9 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 42584 
+INFO: Helper process launched with PID 30672 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 388.457 ; gain = 96.777
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 389.070 ; gain = 97.594
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'FSM' [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_blink/Lab4_FSM_blink.srcs/sources_1/new/Lab4_FSM_blink.v:3]
 	Parameter S0 bound to: 4'b0000 
@@ -26,9 +26,7 @@ INFO: [Synth 8-638] synthesizing module 'FSM' [C:/Users/danie/OneDrive/Documents
 	Parameter S4 bound to: 4'b1111 
 INFO: [Synth 8-638] synthesizing module 'clkgen' [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_blink/Lab4_FSM_blink.srcs/sources_1/new/clkgen.v:2]
 INFO: [Synth 8-256] done synthesizing module 'clkgen' (1#1) [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_blink/Lab4_FSM_blink.srcs/sources_1/new/clkgen.v:2]
-WARNING: [Synth 8-567] referenced signal 'sw' should be on the sensitivity list [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_blink/Lab4_FSM_blink.srcs/sources_1/new/Lab4_FSM_blink.v:58]
-WARNING: [Synth 8-567] referenced signal 'tmp_state_l' should be on the sensitivity list [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_blink/Lab4_FSM_blink.srcs/sources_1/new/Lab4_FSM_blink.v:58]
-WARNING: [Synth 8-567] referenced signal 'tmp_state_r' should be on the sensitivity list [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_blink/Lab4_FSM_blink.srcs/sources_1/new/Lab4_FSM_blink.v:58]
+WARNING: [Synth 8-567] referenced signal 'sw' should be on the sensitivity list [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_blink/Lab4_FSM_blink.srcs/sources_1/new/Lab4_FSM_blink.v:34]
 INFO: [Synth 8-256] done synthesizing module 'FSM' (2#1) [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_blink/Lab4_FSM_blink.srcs/sources_1/new/Lab4_FSM_blink.v:3]
 WARNING: [Synth 8-3331] design FSM has unconnected port led[15]
 WARNING: [Synth 8-3331] design FSM has unconnected port led[14]
@@ -40,7 +38,7 @@ WARNING: [Synth 8-3331] design FSM has unconnected port led[9]
 WARNING: [Synth 8-3331] design FSM has unconnected port led[8]
 WARNING: [Synth 8-3331] design FSM has unconnected port sw[3]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 441.090 ; gain = 149.410
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 440.867 ; gain = 149.391
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -50,7 +48,7 @@ Report Check Netlist:
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 441.090 ; gain = 149.410
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 440.867 ; gain = 149.391
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7a35tcpg236-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -66,32 +64,32 @@ Completed Processing XDC Constraints
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 776.844 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 768.973 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 776.844 ; gain = 485.164
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 768.973 ; gain = 477.496
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 776.844 ; gain = 485.164
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 768.973 ; gain = 477.496
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 776.844 ; gain = 485.164
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 768.973 ; gain = 477.496
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-6014] Unused sequential element count_reg was removed.  [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_blink/Lab4_FSM_blink.srcs/sources_1/new/clkgen.v:11]
 INFO: [Synth 8-5544] ROM "nextstate_l" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "nextstate_l" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "nextstate_r" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "nextstate_r" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
-WARNING: [Synth 8-327] inferring latch for variable 'nextstate_r_reg' [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_blink/Lab4_FSM_blink.srcs/sources_1/new/Lab4_FSM_blink.v:61]
-WARNING: [Synth 8-327] inferring latch for variable 'nextstate_l_reg' [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_blink/Lab4_FSM_blink.srcs/sources_1/new/Lab4_FSM_blink.v:60]
+WARNING: [Synth 8-327] inferring latch for variable 'nextstate_r_reg' [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_blink/Lab4_FSM_blink.srcs/sources_1/new/Lab4_FSM_blink.v:37]
+WARNING: [Synth 8-327] inferring latch for variable 'nextstate_l_reg' [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_blink/Lab4_FSM_blink.srcs/sources_1/new/Lab4_FSM_blink.v:36]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 776.844 ; gain = 485.164
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 768.973 ; gain = 477.496
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -103,16 +101,12 @@ Report RTL Partitions:
 Start RTL Component Statistics 
 ---------------------------------------------------------------------------------
 Detailed RTL Component Info : 
-+---Adders : 
-	   2 Input     33 Bit       Adders := 1     
 +---Registers : 
 	                4 Bit    Registers := 2     
 	                1 Bit    Registers := 1     
 +---Muxes : 
-	   2 Input     33 Bit        Muxes := 1     
-	   9 Input      4 Bit        Muxes := 2     
-	   3 Input      1 Bit        Muxes := 1     
-	   2 Input      1 Bit        Muxes := 1     
+	  10 Input      4 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 4     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -122,15 +116,11 @@ Start RTL Hierarchical Component Statistics
 Hierarchical RTL Component report 
 Module FSM 
 Detailed RTL Component Info : 
-+---Adders : 
-	   2 Input     33 Bit       Adders := 1     
 +---Registers : 
 	                4 Bit    Registers := 2     
 +---Muxes : 
-	   2 Input     33 Bit        Muxes := 1     
-	   9 Input      4 Bit        Muxes := 2     
-	   3 Input      1 Bit        Muxes := 1     
-	   2 Input      1 Bit        Muxes := 1     
+	  10 Input      4 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 4     
 Module clkgen 
 Detailed RTL Component Info : 
 +---Registers : 
@@ -160,133 +150,8 @@ WARNING: [Synth 8-3331] design FSM has unconnected port led[10]
 WARNING: [Synth 8-3331] design FSM has unconnected port led[9]
 WARNING: [Synth 8-3331] design FSM has unconnected port led[8]
 WARNING: [Synth 8-3331] design FSM has unconnected port sw[3]
-WARNING: [Synth 8-3332] Sequential element (state_r_reg[3]) is unused and will be removed from module FSM.
-CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'state_r_reg[3]/Q' [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_blink/Lab4_FSM_blink.srcs/sources_1/new/Lab4_FSM_blink.v:51]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_blink/Lab4_FSM_blink.srcs/sources_1/new/Lab4_FSM_blink.v:51]
-CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_blink/Lab4_FSM_blink.srcs/sources_1/new/Lab4_FSM_blink.v:51]
-WARNING: [Synth 8-3332] Sequential element (state_r_reg[2]) is unused and will be removed from module FSM.
-CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'state_r_reg[2]/Q' [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_blink/Lab4_FSM_blink.srcs/sources_1/new/Lab4_FSM_blink.v:51]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_blink/Lab4_FSM_blink.srcs/sources_1/new/Lab4_FSM_blink.v:51]
-CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_blink/Lab4_FSM_blink.srcs/sources_1/new/Lab4_FSM_blink.v:51]
-WARNING: [Synth 8-3332] Sequential element (state_r_reg[1]) is unused and will be removed from module FSM.
-CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'state_r_reg[1]/Q' [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_blink/Lab4_FSM_blink.srcs/sources_1/new/Lab4_FSM_blink.v:51]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_blink/Lab4_FSM_blink.srcs/sources_1/new/Lab4_FSM_blink.v:51]
-CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_blink/Lab4_FSM_blink.srcs/sources_1/new/Lab4_FSM_blink.v:51]
-WARNING: [Synth 8-3332] Sequential element (state_r_reg[0]) is unused and will be removed from module FSM.
-CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'state_r_reg[0]/Q' [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_blink/Lab4_FSM_blink.srcs/sources_1/new/Lab4_FSM_blink.v:51]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_blink/Lab4_FSM_blink.srcs/sources_1/new/Lab4_FSM_blink.v:51]
-CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_blink/Lab4_FSM_blink.srcs/sources_1/new/Lab4_FSM_blink.v:51]
-WARNING: [Synth 8-3332] Sequential element (state_r_reg[3]__0) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (state_r_reg[2]__0) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (state_r_reg[1]__0) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (state_r_reg[0]__0) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (state_l_reg[3]) is unused and will be removed from module FSM.
-CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'state_l_reg[3]/Q' [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_blink/Lab4_FSM_blink.srcs/sources_1/new/Lab4_FSM_blink.v:50]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_blink/Lab4_FSM_blink.srcs/sources_1/new/Lab4_FSM_blink.v:50]
-CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_blink/Lab4_FSM_blink.srcs/sources_1/new/Lab4_FSM_blink.v:50]
-WARNING: [Synth 8-3332] Sequential element (state_l_reg[2]) is unused and will be removed from module FSM.
-CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'state_l_reg[2]/Q' [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_blink/Lab4_FSM_blink.srcs/sources_1/new/Lab4_FSM_blink.v:50]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_blink/Lab4_FSM_blink.srcs/sources_1/new/Lab4_FSM_blink.v:50]
-CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_blink/Lab4_FSM_blink.srcs/sources_1/new/Lab4_FSM_blink.v:50]
-WARNING: [Synth 8-3332] Sequential element (state_l_reg[1]) is unused and will be removed from module FSM.
-CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'state_l_reg[1]/Q' [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_blink/Lab4_FSM_blink.srcs/sources_1/new/Lab4_FSM_blink.v:50]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_blink/Lab4_FSM_blink.srcs/sources_1/new/Lab4_FSM_blink.v:50]
-CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_blink/Lab4_FSM_blink.srcs/sources_1/new/Lab4_FSM_blink.v:50]
-WARNING: [Synth 8-3332] Sequential element (state_l_reg[0]) is unused and will be removed from module FSM.
-CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'state_l_reg[0]/Q' [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_blink/Lab4_FSM_blink.srcs/sources_1/new/Lab4_FSM_blink.v:50]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_blink/Lab4_FSM_blink.srcs/sources_1/new/Lab4_FSM_blink.v:50]
-CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_blink/Lab4_FSM_blink.srcs/sources_1/new/Lab4_FSM_blink.v:50]
-WARNING: [Synth 8-3332] Sequential element (state_l_reg[3]__0) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (state_l_reg[2]__0) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (state_l_reg[1]__0) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (state_l_reg[0]__0) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[32]) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[31]) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[30]) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[29]) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[28]) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[27]) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[26]) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[25]) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[24]) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[23]) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[22]) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[21]) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[20]) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[19]) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[18]) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[17]) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[16]) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[15]) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[14]) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[13]) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[12]) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[11]) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[10]) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[9]) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[8]) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[7]) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[6]) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[5]) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[4]) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[3]) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[2]) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[1]) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[0]) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[32]__0) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[31]__0) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[30]__0) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[29]__0) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[28]__0) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[27]__0) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[26]__0) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[25]__0) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[24]__0) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[23]__0) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[22]__0) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[21]__0) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[20]__0) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[19]__0) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[18]__0) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[17]__0) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[16]__0) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[15]__0) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[14]__0) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[13]__0) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[12]__0) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[11]__0) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[10]__0) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[9]__0) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[8]__0) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[7]__0) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[6]__0) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[5]__0) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[4]__0) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[3]__0) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[2]__0) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[1]__0) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (count1_reg[0]__0) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (nextstate_r_reg[3]) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (nextstate_r_reg[2]) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (nextstate_r_reg[1]) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (nextstate_r_reg[0]) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (nextstate_l_reg[3]) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (nextstate_l_reg[2]) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (nextstate_l_reg[1]) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (nextstate_l_reg[0]) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (clkgen_0/count_reg[0]) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (clkgen_0/count_reg[1]) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (clkgen_0/count_reg[2]) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (clkgen_0/count_reg[3]) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (clkgen_0/count_reg[4]) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (clkgen_0/count_reg[5]) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (clkgen_0/count_reg[6]) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (clkgen_0/count_reg[7]) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (clkgen_0/count_reg[8]) is unused and will be removed from module FSM.
-WARNING: [Synth 8-3332] Sequential element (clkgen_0/count_reg[9]) is unused and will be removed from module FSM.
-INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 776.844 ; gain = 485.164
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 768.973 ; gain = 477.496
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -298,13 +163,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 776.844 ; gain = 485.164
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 768.973 ; gain = 477.496
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 776.844 ; gain = 485.164
+Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 787.672 ; gain = 496.195
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -316,7 +181,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 776.844 ; gain = 485.164
+Finished Technology Mapping : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 788.855 ; gain = 497.379
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -340,7 +205,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 776.844 ; gain = 485.164
+Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 788.855 ; gain = 497.379
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -353,7 +218,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 776.844 ; gain = 485.164
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 788.855 ; gain = 497.379
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -365,25 +230,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 776.844 ; gain = 485.164
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 788.855 ; gain = 497.379
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 776.844 ; gain = 485.164
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 788.855 ; gain = 497.379
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 776.844 ; gain = 485.164
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 788.855 ; gain = 497.379
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 776.844 ; gain = 485.164
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 788.855 ; gain = 497.379
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -396,36 +261,50 @@ Report BlackBoxes:
 +-+--------------+----------+
 
 Report Cell Usage: 
-+------+------+------+
-|      |Cell  |Count |
-+------+------+------+
-|1     |OBUF  |     8|
-|2     |OBUFT |     8|
-+------+------+------+
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     7|
+|3     |LUT1   |     1|
+|4     |LUT2   |     3|
+|5     |LUT3   |     1|
+|6     |LUT5   |     1|
+|7     |LUT6   |    11|
+|8     |FDRE   |    35|
+|9     |LD     |     8|
+|10    |IBUF   |     4|
+|11    |OBUF   |     8|
+|12    |OBUFT  |     8|
++------+-------+------+
 
 Report Instance Areas: 
-+------+---------+-------+------+
-|      |Instance |Module |Cells |
-+------+---------+-------+------+
-|1     |top      |       |    16|
-+------+---------+-------+------+
++------+-----------+-------+------+
+|      |Instance   |Module |Cells |
++------+-----------+-------+------+
+|1     |top        |       |    88|
+|2     |  clkgen_0 |clkgen |    42|
++------+-----------+-------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 776.844 ; gain = 485.164
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 788.855 ; gain = 497.379
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 24 critical warnings and 138 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 776.844 ; gain = 149.410
-Synthesis Optimization Complete : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 776.844 ; gain = 485.164
+Synthesis finished with 0 errors, 0 critical warnings and 13 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 788.855 ; gain = 169.273
+Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 788.855 ; gain = 497.379
 INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 19 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 INFO: [Project 1-111] Unisim Transformation Summary:
-No Unisim elements were transformed.
+  A total of 8 instances were transformed.
+  LD => LDCE: 8 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-19 Infos, 125 Warnings, 24 Critical Warnings and 0 Errors encountered.
+20 Infos, 23 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:29 . Memory (MB): peak = 778.156 ; gain = 499.266
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 788.855 ; gain = 509.605
 INFO: [Common 17-1381] The checkpoint 'C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_blink/Lab4_FSM_blink.runs/synth_1/FSM.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file FSM_utilization_synth.rpt -pb FSM_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 778.156 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Sun Mar  6 14:26:11 2022...
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 788.855 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon Mar  7 09:14:07 2022...
