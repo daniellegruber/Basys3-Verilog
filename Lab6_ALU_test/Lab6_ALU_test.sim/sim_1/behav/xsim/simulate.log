@@ -1,0 +1,8 @@
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+WARNING: File testvectors_hex referenced on C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab6_ALU_test/ALU_test.v at line 68 cannot be opened for reading. Please ensure that this file is available in the current working directory.
+Error at    80 ns: Aluop xxxx a=xxxxxxxx b=xxxxxxxx
+       xxxxxxxx (xxxxxxxx expected)
+ Zero: z (x expected)
+   1 tests completed with    1 errors
+$finish called at time : 100 ns : File "C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab6_ALU_test/ALU_test.v" Line 115

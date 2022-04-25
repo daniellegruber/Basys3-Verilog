@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Fri Apr 22 14:03:39 2022
+# Process ID: 12944
+# Current directory: C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab6_FSM_test
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent25396 C:\Users\danie\OneDrive\Documents\Basys3-Verilog\Lab6_FSM_test\Lab6_FSM_test.xpr
+# Log file: C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab6_FSM_test/vivado.log
+# Journal file: C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab6_FSM_test\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab6_FSM_test/Lab6_FSM_test.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source FSM_test.tcl
+close_sim
+launch_simulation
+source FSM_test.tcl
+close_sim
+launch_simulation
+source FSM_test.tcl
+set_property -name {xsim.simulate.runtime} -value {10000ns} -objects [get_filesets sim_1]
+close_sim
+launch_simulation
+source FSM_test.tcl
+close_sim
+launch_simulation
+source FSM_test.tcl
+close_sim

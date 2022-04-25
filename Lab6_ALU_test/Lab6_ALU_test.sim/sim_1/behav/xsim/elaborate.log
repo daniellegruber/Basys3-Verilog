@@ -1,0 +1,36 @@
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto cd1d0eae951b436fade0c8591d2dd592 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ALU_test_behav xil_defaultlib.ALU_test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab5_ALU/Lab5_ALU.srcs/sources_1/new/Lab5_ALU.v" Line 110. Module Lab5_ALU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab5_ALU/Lab5_ALU.srcs/sources_1/new/Lab5_ALU.v" Line 80. Module arith doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab5_ALU/Lab5_ALU.srcs/sources_1/new/Lab5_ALU.v" Line 15. Module mux21 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab5_ALU/Lab5_ALU.srcs/sources_1/new/Lab5_ALU.v" Line 26. Module adder32 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab5_ALU/Lab5_ALU.srcs/sources_1/new/Lab5_ALU.v" Line 70. Module SignExtend doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab5_ALU/Lab5_ALU.srcs/sources_1/new/Lab5_ALU.v" Line 15. Module mux21 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab5_ALU/Lab5_ALU.srcs/sources_1/new/Lab5_ALU.v" Line 95. Module logic doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab5_ALU/Lab5_ALU.srcs/sources_1/new/Lab5_ALU.v" Line 33. Module and32 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab5_ALU/Lab5_ALU.srcs/sources_1/new/Lab5_ALU.v" Line 43. Module or32 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab5_ALU/Lab5_ALU.srcs/sources_1/new/Lab5_ALU.v" Line 52. Module xor32 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab5_ALU/Lab5_ALU.srcs/sources_1/new/Lab5_ALU.v" Line 62. Module nor32 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab5_ALU/Lab5_ALU.srcs/sources_1/new/Lab5_ALU.v" Line 2. Module mux41 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab5_ALU/Lab5_ALU.srcs/sources_1/new/Lab5_ALU.v" Line 15. Module mux21 doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mux21
+Compiling module xil_defaultlib.adder32
+Compiling module xil_defaultlib.SignExtend
+Compiling module xil_defaultlib.arith
+Compiling module xil_defaultlib.and32
+Compiling module xil_defaultlib.or32
+Compiling module xil_defaultlib.xor32
+Compiling module xil_defaultlib.nor32
+Compiling module xil_defaultlib.mux41
+Compiling module xil_defaultlib.logic
+Compiling module xil_defaultlib.Lab5_ALU
+Compiling module xil_defaultlib.ALU_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ALU_test_behav

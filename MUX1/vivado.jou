@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon Apr 11 14:46:05 2022
+# Process ID: 23184
+# Current directory: C:/Users/danie/OneDrive/Documents/Basys3-Verilog/MUX1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent36540 C:\Users\danie\OneDrive\Documents\Basys3-Verilog\MUX1\MUX1.xpr
+# Log file: C:/Users/danie/OneDrive/Documents/Basys3-Verilog/MUX1/vivado.log
+# Journal file: C:/Users/danie/OneDrive/Documents/Basys3-Verilog/MUX1\vivado.jou
+#-----------------------------------------------------------
+start_guioopen_project C:/Users/danie/OneDrive/Documents/Basys3-Verilog/MUX1/MUX1.xpr
+update_compile_order -fileset sources_1

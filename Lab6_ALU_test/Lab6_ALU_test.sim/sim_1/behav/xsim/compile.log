@@ -1,0 +1,14 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab5_ALU/Lab5_ALU.srcs/sources_1/new/Lab5_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux41
+INFO: [VRFC 10-311] analyzing module mux21
+INFO: [VRFC 10-311] analyzing module adder32
+INFO: [VRFC 10-311] analyzing module and32
+INFO: [VRFC 10-311] analyzing module or32
+INFO: [VRFC 10-311] analyzing module xor32
+INFO: [VRFC 10-311] analyzing module nor32
+INFO: [VRFC 10-311] analyzing module SignExtend
+INFO: [VRFC 10-311] analyzing module arith
+INFO: [VRFC 10-311] analyzing module logic
+INFO: [VRFC 10-311] analyzing module Lab5_ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab6_ALU_test/ALU_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_test

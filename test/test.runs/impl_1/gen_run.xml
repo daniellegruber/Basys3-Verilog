@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1646698720">
+  <File Type="PWROPT-DCP" Name="LEDglow_pwropt.dcp"/>
+  <File Type="ROUTE-PWR" Name="LEDglow_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="LEDglow.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="LEDglow_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="LEDglow_reports.tcl"/>
+  <File Type="BG-DRC" Name="LEDglow.drc"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="LEDglow_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="LEDglow_timing_summary_init.rpt"/>
+  <File Type="OPT-HWDEF" Name="LEDglow.hwdef"/>
+  <File Type="OPT-DCP" Name="LEDglow_opt.dcp"/>
+  <File Type="OPT-DRC" Name="LEDglow_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="LEDglow_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DRC" Name="LEDglow_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="LEDglow_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="LEDglow_placed.dcp"/>
+  <File Type="PLACE-IO" Name="LEDglow_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="LEDglow_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="LEDglow_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="LEDglow_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="LEDglow_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="LEDglow_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="LEDglow_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="LEDglow_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="LEDglow_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="LEDglow_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="LEDglow_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="LEDglow_drc_physopted.rpt"/>
+  <File Type="BG-BIT" Name="LEDglow.bit"/>
+  <File Type="PHYSOPT-TIMING" Name="LEDglow_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="LEDglow_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="LEDglow_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="LEDglow_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="LEDglow_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="LEDglow_drc_routed.pb"/>
+  <File Type="BITSTR-MSK" Name="LEDglow.msk"/>
+  <File Type="ROUTE-DRC-RPX" Name="LEDglow_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="LEDglow.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="LEDglow_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-RBT" Name="LEDglow.rbt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="LEDglow_methodology_drc_routed.rpx"/>
+  <File Type="BG-BIN" Name="LEDglow.bin"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="LEDglow_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="LEDglow_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="LEDglow_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="LEDglow_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="LEDglow_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="LEDglow_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="LEDglow_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="LEDglow_incremental_reuse_routed.rpt"/>
+  <File Type="RDI-RDI" Name="LEDglow.vdi"/>
+  <File Type="ROUTE-CLK" Name="LEDglow_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="LEDglow_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="LEDglow_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="LEDglow_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="LEDglow_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="LEDglow_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="LEDglow.nky"/>
+  <File Type="BITSTR-BMM" Name="LEDglow_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="LEDglow.mmi"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="LEDglow.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="LEDglow.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/clkgen.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/test_pwm.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/test_pwm2.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="LEDglow"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/Basys3_testpwm.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

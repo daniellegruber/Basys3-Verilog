@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon Apr 11 14:46:05 2022
+# Process ID: 23184
+# Current directory: C:/Users/danie/OneDrive/Documents/Basys3-Verilog/MUX1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent36540 C:\Users\danie\OneDrive\Documents\Basys3-Verilog\MUX1\MUX1.xpr
+# Log file: C:/Users/danie/OneDrive/Documents/Basys3-Verilog/MUX1/vivado.log
+# Journal file: C:/Users/danie/OneDrive/Documents/Basys3-Verilog/MUX1\vivado.jou
+#-----------------------------------------------------------
+start_guioopen_project C:/Users/danie/OneDrive/Documents/Basys3-Verilog/MUX1/MUX1.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/dlg59/Documents/GitHub/MUX1' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'C:/Users/danie/OneDrive/Documents/Basys3-Verilog/MUX1/MUX1.ip_user_files', nor could it be found using path 'C:/Users/dlg59/Documents/GitHub/MUX1/MUX1.ip_user_files'.
+CRITICAL WARNING: [Board 49-67] The board_part definition was not found for digilentinc.com:basys3:part0:1.1. This can happen sometimes when you use custom board part. You can resolve this issue by setting 'board.repoPaths' parameter, pointing to the location of custom board files. Valid board_part values can be retrieved with the 'get_board_parts' Tcl command.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 840.957 ; gain = 154.898
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 11 14:46:46 2022...
+s been returned to its previous state.
+INFO: [Common 17-344] 'open_project' was cancelled
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 11 14:46:32 2022...

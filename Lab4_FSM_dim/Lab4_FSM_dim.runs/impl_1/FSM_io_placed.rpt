@@ -1,7 +1,7 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------
 | Tool Version              : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
-| Date                      : Mon Mar  7 12:20:04 2022
+| Date                      : Thu Mar 10 21:43:48 2022
 | Host                      : DESKTOP-B8HCSQT running 64-bit major release  (build 9200)
 | Command                   : report_io -file FSM_io_placed.rpt
 | Design                    : FSM
@@ -247,7 +247,7 @@ Table of Contents
 | V10        |             | Dedicated  | PROGRAM_B_0                  | Config        |             |       0 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
 | V11        |             | Dedicated  | CFGBVS_0                     | Config        |             |       0 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
 | V12        |             | Dedicated  | M0_0                         | Config        |             |       0 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
-| V13        | led[8]      | High Range | IO_L24P_T3_A01_D17_14        | TRISTATE      | LVCMOS33    |      14 |         12 | SLOW |                     |            FP_VTT_50 |         | FIXED      |           |          |      | NONE             |              |                   |              |
+| V13        | led[8]      | High Range | IO_L24P_T3_A01_D17_14        | OUTPUT        | LVCMOS33    |      14 |         12 | SLOW |                     |            FP_VTT_50 |         | FIXED      |           |          |      | NONE             |              |                   |              |
 | V14        | led[7]      | High Range | IO_L24N_T3_A00_D16_14        | OUTPUT        | LVCMOS33    |      14 |         12 | SLOW |                     |            FP_VTT_50 |         | FIXED      |           |          |      | NONE             |              |                   |              |
 | V15        |             | High Range | IO_L21P_T3_DQS_14            | User IO       |             |      14 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
 | V16        | sw[1]       | High Range | IO_L19P_T3_A10_D26_14        | INPUT         | LVCMOS33    |      14 |            |      |                     |                 NONE |         | FIXED      |           |          |      | NONE             |              |                   |              |

@@ -14,22 +14,22 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 31764 
+INFO: Helper process launched with PID 24752 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 389.113 ; gain = 97.062
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 389.082 ; gain = 97.172
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'FSM' [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_dim/Lab4_FSM_dim.srcs/sources_1/new/Lab4_FSM_dim.v:3]
 	Parameter S0 bound to: 4'b0000 
-	Parameter S1 bound to: 4'b0001 
-	Parameter S2 bound to: 4'b0011 
-	Parameter S3 bound to: 4'b0111 
 	Parameter S4 bound to: 4'b1111 
-	Parameter PWM_input bound to: 4'b1111 
+	Parameter L1 bound to: 4'b0001 
+	Parameter L2 bound to: 4'b0011 
+	Parameter L3 bound to: 4'b0111 
+	Parameter R1 bound to: 4'b1000 
+	Parameter R2 bound to: 4'b1100 
+	Parameter R3 bound to: 4'b1110 
+	Parameter MAX_BITS bound to: 26 - type: integer 
 INFO: [Synth 8-638] synthesizing module 'clkgen' [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_dim/Lab4_FSM_dim.srcs/sources_1/new/clkgen.v:2]
 INFO: [Synth 8-256] done synthesizing module 'clkgen' (1#1) [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_dim/Lab4_FSM_dim.srcs/sources_1/new/clkgen.v:2]
-WARNING: [Synth 8-567] referenced signal 'sw' should be on the sensitivity list [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_dim/Lab4_FSM_dim.srcs/sources_1/new/Lab4_FSM_dim.v:36]
-WARNING: [Synth 8-567] referenced signal 'count1' should be on the sensitivity list [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_dim/Lab4_FSM_dim.srcs/sources_1/new/Lab4_FSM_dim.v:36]
-WARNING: [Synth 8-567] referenced signal 'PWM' should be on the sensitivity list [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_dim/Lab4_FSM_dim.srcs/sources_1/new/Lab4_FSM_dim.v:36]
 INFO: [Synth 8-256] done synthesizing module 'FSM' (2#1) [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_dim/Lab4_FSM_dim.srcs/sources_1/new/Lab4_FSM_dim.v:3]
 WARNING: [Synth 8-3331] design FSM has unconnected port led[15]
 WARNING: [Synth 8-3331] design FSM has unconnected port led[14]
@@ -38,10 +38,9 @@ WARNING: [Synth 8-3331] design FSM has unconnected port led[12]
 WARNING: [Synth 8-3331] design FSM has unconnected port led[11]
 WARNING: [Synth 8-3331] design FSM has unconnected port led[10]
 WARNING: [Synth 8-3331] design FSM has unconnected port led[9]
-WARNING: [Synth 8-3331] design FSM has unconnected port led[8]
 WARNING: [Synth 8-3331] design FSM has unconnected port sw[3]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 441.496 ; gain = 149.445
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 440.809 ; gain = 148.898
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -51,7 +50,7 @@ Report Check Netlist:
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 441.496 ; gain = 149.445
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 440.809 ; gain = 148.898
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7a35tcpg236-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -67,36 +66,33 @@ Completed Processing XDC Constraints
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 775.004 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 774.645 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 775.004 ; gain = 482.953
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 774.645 ; gain = 482.734
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 775.004 ; gain = 482.953
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 774.645 ; gain = 482.734
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 775.004 ; gain = 482.953
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 774.645 ; gain = 482.734
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-6014] Unused sequential element count_reg was removed.  [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_dim/Lab4_FSM_dim.srcs/sources_1/new/clkgen.v:11]
 INFO: [Synth 8-5544] ROM "nextstate_l" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "nextstate_l" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
-INFO: [Synth 8-5544] ROM "nextstate_l" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "nextstate_r" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
-INFO: [Synth 8-5544] ROM "count1" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
-INFO: [Synth 8-5544] ROM "count1" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
-WARNING: [Synth 8-327] inferring latch for variable 'nextstate_r_reg' [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_dim/Lab4_FSM_dim.srcs/sources_1/new/Lab4_FSM_dim.v:39]
-WARNING: [Synth 8-327] inferring latch for variable 'nextstate_l_reg' [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_dim/Lab4_FSM_dim.srcs/sources_1/new/Lab4_FSM_dim.v:38]
-WARNING: [Synth 8-327] inferring latch for variable 'PWM_reg' [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_dim/Lab4_FSM_dim.srcs/sources_1/new/Lab4_FSM_dim.v:57]
-WARNING: [Synth 8-327] inferring latch for variable 'count1_reg' [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_dim/Lab4_FSM_dim.srcs/sources_1/new/Lab4_FSM_dim.v:54]
+INFO: [Synth 8-5544] ROM "nextstate_r" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "led_idx" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "led_idx" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+WARNING: [Synth 8-6014] Unused sequential element cnt_reg was removed.  [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_dim/Lab4_FSM_dim.srcs/sources_1/new/Lab4_FSM_dim.v:33]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 775.004 ; gain = 482.953
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 774.645 ; gain = 482.734
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -109,23 +105,17 @@ Start RTL Component Statistics
 ---------------------------------------------------------------------------------
 Detailed RTL Component Info : 
 +---Adders : 
-	   2 Input     22 Bit       Adders := 1     
 	   2 Input      5 Bit       Adders := 1     
-	   2 Input      4 Bit       Adders := 1     
 +---Registers : 
-	                4 Bit    Registers := 2     
-	                1 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 5     
+	                1 Bit    Registers := 2     
 +---Muxes : 
-	   2 Input     22 Bit        Muxes := 1     
-	   4 Input      4 Bit        Muxes := 2     
-	   2 Input      4 Bit        Muxes := 7     
-	   5 Input      4 Bit        Muxes := 3     
-	   2 Input      3 Bit        Muxes := 1     
-	   5 Input      3 Bit        Muxes := 1     
-	   7 Input      3 Bit        Muxes := 1     
-	   2 Input      1 Bit        Muxes := 8     
-	   5 Input      1 Bit        Muxes := 3     
-	   6 Input      1 Bit        Muxes := 1     
+	   9 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 4     
+	   6 Input      3 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 6     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -136,22 +126,17 @@ Hierarchical RTL Component report
 Module FSM 
 Detailed RTL Component Info : 
 +---Adders : 
-	   2 Input     22 Bit       Adders := 1     
 	   2 Input      5 Bit       Adders := 1     
-	   2 Input      4 Bit       Adders := 1     
 +---Registers : 
-	                4 Bit    Registers := 2     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 5     
+	                1 Bit    Registers := 1     
 +---Muxes : 
-	   2 Input     22 Bit        Muxes := 1     
-	   4 Input      4 Bit        Muxes := 2     
-	   2 Input      4 Bit        Muxes := 7     
-	   5 Input      4 Bit        Muxes := 3     
-	   2 Input      3 Bit        Muxes := 1     
-	   5 Input      3 Bit        Muxes := 1     
-	   7 Input      3 Bit        Muxes := 1     
-	   2 Input      1 Bit        Muxes := 8     
-	   5 Input      1 Bit        Muxes := 3     
-	   6 Input      1 Bit        Muxes := 1     
+	   9 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 4     
+	   6 Input      3 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 6     
 Module clkgen 
 Detailed RTL Component Info : 
 +---Registers : 
@@ -171,7 +156,10 @@ Finished Part Resource Summary
 ---------------------------------------------------------------------------------
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element clkgen_0/tmp_clk_reg was removed.  [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_dim/Lab4_FSM_dim.srcs/sources_1/new/clkgen.v:7]
 WARNING: [Synth 8-6014] Unused sequential element clkgen_0/count_reg was removed.  [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_dim/Lab4_FSM_dim.srcs/sources_1/new/clkgen.v:11]
+WARNING: [Synth 8-3936] Found unconnected internal register 'led_idx_reg' and it is trimmed from '4' to '2' bits. [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_dim/Lab4_FSM_dim.srcs/sources_1/new/Lab4_FSM_dim.v:87]
+WARNING: [Synth 8-6014] Unused sequential element cnt_reg was removed.  [C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_dim/Lab4_FSM_dim.srcs/sources_1/new/Lab4_FSM_dim.v:33]
 WARNING: [Synth 8-3331] design FSM has unconnected port led[15]
 WARNING: [Synth 8-3331] design FSM has unconnected port led[14]
 WARNING: [Synth 8-3331] design FSM has unconnected port led[13]
@@ -179,22 +167,9 @@ WARNING: [Synth 8-3331] design FSM has unconnected port led[12]
 WARNING: [Synth 8-3331] design FSM has unconnected port led[11]
 WARNING: [Synth 8-3331] design FSM has unconnected port led[10]
 WARNING: [Synth 8-3331] design FSM has unconnected port led[9]
-WARNING: [Synth 8-3331] design FSM has unconnected port led[8]
 WARNING: [Synth 8-3331] design FSM has unconnected port sw[3]
-INFO: [Synth 8-3886] merging instance 'count1_reg[26]' (LD) to 'count1_reg[32]'
-INFO: [Synth 8-3886] merging instance 'count1_reg[27]' (LD) to 'count1_reg[32]'
-INFO: [Synth 8-3886] merging instance 'count1_reg[28]' (LD) to 'count1_reg[32]'
-INFO: [Synth 8-3886] merging instance 'count1_reg[22]' (LD) to 'count1_reg[32]'
-INFO: [Synth 8-3886] merging instance 'count1_reg[23]' (LD) to 'count1_reg[32]'
-INFO: [Synth 8-3886] merging instance 'count1_reg[24]' (LD) to 'count1_reg[32]'
-INFO: [Synth 8-3886] merging instance 'count1_reg[25]' (LD) to 'count1_reg[32]'
-INFO: [Synth 8-3886] merging instance 'count1_reg[32]' (LD) to 'count1_reg[31]'
-INFO: [Synth 8-3886] merging instance 'count1_reg[31]' (LD) to 'count1_reg[30]'
-INFO: [Synth 8-3886] merging instance 'count1_reg[29]' (LD) to 'count1_reg[30]'
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\count1_reg[30] )
-WARNING: [Synth 8-3332] Sequential element (count1_reg[30]) is unused and will be removed from module FSM.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 775.004 ; gain = 482.953
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 774.645 ; gain = 482.734
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -206,13 +181,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 775.004 ; gain = 482.953
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 774.645 ; gain = 482.734
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 782.434 ; gain = 490.383
+Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 775.234 ; gain = 483.324
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -224,7 +199,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 783.754 ; gain = 491.703
+Finished Technology Mapping : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 785.266 ; gain = 493.355
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -248,7 +223,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 783.754 ; gain = 491.703
+Finished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 785.266 ; gain = 493.355
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -261,7 +236,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 783.754 ; gain = 491.703
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 785.266 ; gain = 493.355
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -273,25 +248,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 783.754 ; gain = 491.703
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 785.266 ; gain = 493.355
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 783.754 ; gain = 491.703
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 785.266 ; gain = 493.355
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 783.754 ; gain = 491.703
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 785.266 ; gain = 493.355
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 783.754 ; gain = 491.703
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 785.266 ; gain = 493.355
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -308,49 +283,44 @@ Report Cell Usage:
 |      |Cell   |Count |
 +------+-------+------+
 |1     |BUFG   |     1|
-|2     |CARRY4 |    13|
-|3     |LUT1   |     2|
-|4     |LUT2   |    29|
-|5     |LUT3   |     7|
-|6     |LUT4   |     5|
-|7     |LUT5   |     7|
-|8     |LUT6   |    11|
-|9     |FDRE   |    35|
-|10    |LD     |    30|
-|11    |LDC    |     4|
-|12    |IBUF   |     4|
-|13    |OBUF   |     8|
-|14    |OBUFT  |     8|
+|2     |CARRY4 |     7|
+|3     |LUT1   |     1|
+|4     |LUT2   |     5|
+|5     |LUT3   |     5|
+|6     |LUT4   |     6|
+|7     |LUT5   |    12|
+|8     |LUT6   |     8|
+|9     |FDRE   |    50|
+|10    |IBUF   |     4|
+|11    |OBUF   |     9|
+|12    |OBUFT  |     7|
 +------+-------+------+
 
 Report Instance Areas: 
-+------+-----------+-------+------+
-|      |Instance   |Module |Cells |
-+------+-----------+-------+------+
-|1     |top        |       |   164|
-|2     |  clkgen_0 |clkgen |    42|
-+------+-----------+-------+------+
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   115|
++------+---------+-------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 783.754 ; gain = 491.703
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 785.266 ; gain = 493.355
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 16 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:21 . Memory (MB): peak = 783.754 ; gain = 158.195
-Synthesis Optimization Complete : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 783.754 ; gain = 491.703
+Synthesis finished with 0 errors, 0 critical warnings and 14 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:18 . Memory (MB): peak = 785.266 ; gain = 159.520
+Synthesis Optimization Complete : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 785.266 ; gain = 493.355
 INFO: [Project 1-571] Translating synthesized netlist
-INFO: [Netlist 29-17] Analyzing 51 Unisim elements for replacement
+INFO: [Netlist 29-17] Analyzing 11 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 INFO: [Project 1-111] Unisim Transformation Summary:
-  A total of 34 instances were transformed.
-  LD => LDCE: 30 instances
-  LDC => LDCE: 4 instances
+No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-33 Infos, 28 Warnings, 0 Critical Warnings and 0 Errors encountered.
+22 Infos, 22 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 783.754 ; gain = 504.715
+synth_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 785.266 ; gain = 506.082
 INFO: [Common 17-1381] The checkpoint 'C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_dim/Lab4_FSM_dim.runs/synth_1/FSM.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file FSM_utilization_synth.rpt -pb FSM_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 783.754 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Mon Mar  7 12:19:30 2022...
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.023 . Memory (MB): peak = 785.266 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Mar 10 21:43:19 2022...

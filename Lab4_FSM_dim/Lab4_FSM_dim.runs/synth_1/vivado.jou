@@ -2,8 +2,8 @@
 # Vivado v2017.4 (64-bit)
 # SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
 # IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
-# Start of session at: Mon Mar  7 12:18:55 2022
-# Process ID: 41064
+# Start of session at: Thu Mar 10 21:42:49 2022
+# Process ID: 22680
 # Current directory: C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_dim/Lab4_FSM_dim.runs/synth_1
 # Command line: vivado.exe -log FSM.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source FSM.tcl
 # Log file: C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab4_FSM_dim/Lab4_FSM_dim.runs/synth_1/FSM.vds

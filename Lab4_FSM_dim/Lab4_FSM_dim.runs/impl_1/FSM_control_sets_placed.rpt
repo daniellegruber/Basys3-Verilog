@@ -1,7 +1,7 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
-| Date         : Mon Mar  7 12:20:04 2022
+| Date         : Thu Mar 10 21:43:48 2022
 | Host         : DESKTOP-B8HCSQT running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file FSM_control_sets_placed.rpt
 | Design       : FSM
@@ -22,8 +22,8 @@ Table of Contents
 +----------------------------------------------------------+-------+
 |                          Status                          | Count |
 +----------------------------------------------------------+-------+
-| Number of unique control sets                            |     8 |
-| Unused register locations in slices containing registers |    35 |
+| Number of unique control sets                            |     5 |
+| Unused register locations in slices containing registers |    21 |
 +----------------------------------------------------------+-------+
 
 
@@ -33,40 +33,36 @@ Table of Contents
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
 +--------------+-----------------------+------------------------+-----------------+--------------+
-| No           | No                    | No                     |              39 |           14 |
+| No           | No                    | No                     |              17 |            6 |
 | No           | No                    | Yes                    |               0 |            0 |
-| No           | Yes                   | No                     |              30 |           10 |
+| No           | Yes                   | No                     |               0 |            0 |
 | Yes          | No                    | No                     |               0 |            0 |
 | Yes          | No                    | Yes                    |               0 |            0 |
-| Yes          | Yes                   | No                     |               0 |            0 |
+| Yes          | Yes                   | No                     |              34 |            9 |
 +--------------+-----------------------+------------------------+-----------------+--------------+
 
 
 3. Detailed Control Set Information
 -----------------------------------
 
-+-----------------------------+---------------+----------------------------+------------------+----------------+
-|         Clock Signal        | Enable Signal |      Set/Reset Signal      | Slice Load Count | Bel Load Count |
-+-----------------------------+---------------+----------------------------+------------------+----------------+
-|  clk_IBUF_BUFG              |               |                            |                1 |              1 |
-|  nextstate_r_reg[2]_i_2_n_0 |               | nextstate_r_reg[3]_i_3_n_0 |                1 |              1 |
-|  nextstate_r_reg[3]_i_2_n_0 |               | nextstate_r_reg[3]_i_3_n_0 |                2 |              3 |
-|  PWM_reg[3]_i_2_n_0         |               |                            |                1 |              4 |
-|  nextstate_l_reg[3]_i_2_n_0 |               |                            |                1 |              4 |
-|  clkgen_0/CLK               |               |                            |                3 |              8 |
-|  count1_reg[21]_i_2_n_0     |               |                            |                8 |             22 |
-|  clk_IBUF_BUFG              |               | clkgen_0/clear             |                7 |             26 |
-+-----------------------------+---------------+----------------------------+------------------+----------------+
++----------------+------------------------+------------------------+------------------+----------------+
+|  Clock Signal  |      Enable Signal     |    Set/Reset Signal    | Slice Load Count | Bel Load Count |
++----------------+------------------------+------------------------+------------------+----------------+
+|  transition    |                        |                        |                1 |              2 |
+|  transition    | nextstate_r[3]_i_2_n_0 | nextstate_r[3]_i_1_n_0 |                1 |              4 |
+|  transition    | nextstate_l[3]_i_2_n_0 | nextstate_l[3]_i_1_n_0 |                1 |              4 |
+|  clk_IBUF_BUFG |                        |                        |                5 |             15 |
+|  clk_IBUF_BUFG | sel                    | clear                  |                7 |             26 |
++----------------+------------------------+------------------------+------------------+----------------+
 
 
 +--------+-----------------------+
 | Fanout | Number of ControlSets |
 +--------+-----------------------+
-| 1      |                     2 |
-| 3      |                     1 |
+| 2      |                     1 |
 | 4      |                     2 |
-| 8      |                     1 |
-| 16+    |                     2 |
+| 15     |                     1 |
+| 16+    |                     1 |
 +--------+-----------------------+
 
 

@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/danie/OneDrive/Documents/Basys3-Verilog/Lab5_ALU/Lab5_ALU.sim/sim_1/impl/timing/xsim/alu32_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder32
+INFO: [VRFC 10-311] analyzing module alu32
+INFO: [VRFC 10-311] analyzing module arith
+INFO: [VRFC 10-311] analyzing module mux21
+INFO: [VRFC 10-311] analyzing module glbl
