@@ -23,12 +23,19 @@ endmodule
 
 
 // 32-bit adder
-module adder32( a, b, cin, y );
+module adder32( a, b, cin, y);
 input [31:0] a, b;
 input cin;
+//output overflow;
 output [31:0] y;
 assign y = a + b + cin;
+//assign overflow = ~(a[31]^b[31])^y[31];
 endmodule
+//module adder32( a, b, y );
+//input [31:0] a, b;
+//output [31:0] y;
+//assign y = a + b;
+//endmodule
 
 // 32-bit and
 module and32( a, b, y );
@@ -70,10 +77,14 @@ endmodule
 
 module SignExtend( a, y );
 
-input [31:0] a;
+//input [31:0] a;
+//output [31:0] y; 
+
+//assign y = { 31'd0, a[31] };
+input a;
 output [31:0] y; 
 
-assign y = { 31'd0, a[31] };
+assign y = { 31'd0, a };
 
 endmodule
 
@@ -83,10 +94,13 @@ module arith(a, b, S, MUX_out2);
     input [1:0] S;
     output [31:0] MUX_out2;
     wire [31:0] MUX_out1, AddOut, ext;
-
+    
     mux21 f1( b, ~b, S[0], MUX_out1 );
-    adder32 f2( a, MUX_out1, S[0], AddOut ); // if subtraction, let cin = 1 for 2's complement
-    SignExtend f3( AddOut, ext );
+    adder32 f2( a, MUX_out1, S[0], AddOut); // if subtraction, let cin = 1 for 2's complement
+//    adder32 f2( a, MUX_out1, AddOut ); 
+    SignExtend f3( AddOut[31], ext );
+
+//    SignExtend f3( overflow? (~AddOut[31]):(AddOut[31]), ext );
     mux21 f4( AddOut, ext, S[1], MUX_out2 );
     
 endmodule

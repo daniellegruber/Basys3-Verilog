@@ -35,7 +35,7 @@ module ALU_test;
    wire			exp_zero;
 
    // Vector and Error counts
-   reg [10:0]	vec_cnt, err_cnt;
+   reg [12:0]	vec_cnt, err_cnt;
 
    // TO DO:
    // Define an array called 'testvec' that is wide enough to hold the inputs:
@@ -48,7 +48,7 @@ module ALU_test;
    // Note: we will not store 'exp_zero' in this array.
    
    // MY STUFF
-   reg[99:0] testvec [9:0];  // 100 bits (32 + 32 + 32 + 4) x 10 test vectors
+   reg[99:0] testvec [11:0];  // 100 bits (32 + 32 + 32 + 4) x 10 test vectors
    
 
    // The test clock generation
